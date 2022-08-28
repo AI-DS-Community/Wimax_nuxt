@@ -9,7 +9,7 @@
         border border-gray-800
         shadow-xl
         rounded-xl
-        hover:shadow-pink-500/10 hover:border-pink-500/10
+        hover:shadow-blue-400/10 hover:border-blue-400/10
       "
       :href="content.link"
       data-aos="fade-up"

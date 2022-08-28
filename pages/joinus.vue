@@ -20,11 +20,11 @@
       "
       @submit="joinus"
     >
-      <h2 class="w-full text-3xl font-bold leading-tight text-blue-300">
-        join us
+      <h2 class="w-full text-3xl text-center font-bold leading-tight text-blue-300">
+        JOIN US
       </h2>
       <div class="px-4">
-        <label for="name" class="block mb-1 ml-1 text-orange-500">Name</label>
+        <label for="name" class="block mb-1 ml-1 text-blue-400">Name</label>
         <input
           name="name"
           id="name"
@@ -40,13 +40,13 @@
             focus:outline-none
             focus:ring
             focus:ring-opacity-25
-            focus:ring-orange-500
+            focus:ring-blue-400
             dark:bg-gray-800
           "
         />
       </div>
       <div class="px-4">
-        <label for="number" class="block mb-1 ml-1 text-orange-500"
+        <label for="number" class="block mb-1 ml-1 text-blue-400"
           >Number</label
         >
         <input
@@ -60,17 +60,17 @@
             w-full
             p-2
             rounded
-            text-blue-300
+            text-black
             focus:outline-none
             focus:ring
             focus:ring-opacity-25
-            focus:ring-orange-500
+            focus:ring-blue-400
             dark:bg-gray-800
           "
         />
       </div>
       <div class="px-4">
-        <label for="email" class="block mb-1 ml-1 text-orange-500">Email</label>
+        <label for="email" class="block mb-1 ml-1 text-blue-400">Email</label>
         <input
           name="email_id"
           id="email"
@@ -82,17 +82,17 @@
             w-full
             p-2
             rounded
-            text-blue-300
+            text-black
             focus:outline-none
             focus:ring
             focus:ring-opacity-25
-            focus:ring-orange-500
+            focus:ring-blue-400
             dark:bg-gray-800
           "
         />
       </div>
       <div class="px-4">
-        <label for="skillsKnown" class="block mb-1 ml-1 text-orange-500"
+        <label for="skillsKnown" class="block mb-1 ml-1 text-blue-400"
           >Skills Known</label
         >
         <textarea
@@ -106,17 +106,17 @@
             p-2
             rounded
             autoexpand
-            text-blue-300
+            text-black
             focus:outline-none
             focus:ring
             focus:ring-opacity-25
-            focus:ring-orange-500
+            focus:ring-blue-400
             dark:bg-gray-800
           "
         ></textarea>
       </div>
       <div class="px-4">
-        <label for="skillsAcquire" class="block mb-1 ml-1 text-orange-500"
+        <label for="skillsAcquire" class="block mb-1 ml-1 text-blue-400"
           >Skills to Acquire</label
         >
         <textarea
@@ -130,17 +130,17 @@
             p-2
             rounded
             autoexpand
-            text-blue-300
+            text-black
             focus:outline-none
             focus:ring
             focus:ring-opacity-25
-            focus:ring-orange-500
+            focus:ring-blue-400
             dark:bg-gray-800
           "
         ></textarea>
       </div>
       <div class="px-4">
-        <label for="interest" class="block mb-1 ml-1 text-orange-500"
+        <label for="interest" class="block mb-1 ml-1 text-blue-400"
           >Field of Interest</label
         >
         <textarea
@@ -154,11 +154,11 @@
             p-2
             rounded
             autoexpand
-            text-blue-300
+            text-black
             focus:outline-none
             focus:ring
             focus:ring-opacity-25
-            focus:ring-orange-500
+            focus:ring-blue-400
             dark:bg-gray-800
           "
         ></textarea>
@@ -182,13 +182,14 @@
             font-bold
             rounded
             shadow
-            text-blue-300
+            bg-blue-300
+            text-white
             focus:outline-none focus:ring
             hover:ring
             focus:ring-opacity-50
-            dark:bg-orange-500
-            focus:ring-orange-400
-            hover:ring-orange-500
+            dark:bg-white
+            focus:ring-white
+            hover:ring-white
             dark:text-gray-900
           "
         >
