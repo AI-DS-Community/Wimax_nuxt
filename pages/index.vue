@@ -26,11 +26,12 @@
     <section
       id="about"
       class="
+        mt-12
         grid grid-cols-1
         grid-rows-2
         lg:grid-cols-2
         lg:grid-rows-1
-        gap-8
+        gap-12
         justify-between
         items-center
         bg-gray-900
