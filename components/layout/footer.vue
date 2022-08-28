@@ -1,10 +1,10 @@
 <template>
-    <section id="footer" class="flex justify-between items-center w-full bg-gray-900 px-6 py-3 sticky bottom-0 z-10">
+    <section id="footer" class="flex flex-wrap shadow-lg justify-center lg:justify-between items-center w-full bg-gray-900 px-6 py-3 z-10">
         <div>
-            <a href="/" class="text-blue-300 font-semibold text-xl hover:text-orange-500">WiMaX</a>
+            <a href="/" class="text-center text-blue-300 font-semibold text-xl hover:text-orange-500">WiMaX</a>
         </div>
-        <div class="text-blue-300 text-xs">
-            © Copyright 2021. All Rights Reserved.
+        <div class="text-blue-300 text-xs invisible lg:visible">
+            <p>© Copyright 2021. All Rights Reserved.</p>
         </div>
         <div class="grid grid-cols-3 gap-4 shadow">
             <a href="https://github.com/AI-DS-Community" target=”_blank”><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -40,6 +40,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+    #footer {
+        height: 10vh
+    }
     svg {
         color: rgb(147 197 253);
     }
