@@ -329,7 +329,7 @@ const domains = [
   },
   {
     title: `App Development`,
-    image: `/web_dev.svg`,
+    image: `/app.svg`,
     link: `/services/digital-campaign`,
     content: `Covers both Mobile app and system app development. Application software addresses the end user and provides features to perform specific tasks and activities.`,
   },{
@@ -351,7 +351,7 @@ const domains = [
   },
   {
     title: `Cloud Computing`,
-    image: `/web_dev.svg`,
+    image: `/cloud.svg`,
     link: `/services/digital-campaign`,
     content: `Cloud computing is the delivery of computing services—including servers, storage, databases, networking, software, analytics, and intelligence—over the Internet to offer faster innovation.`,
   },
@@ -363,7 +363,7 @@ const domains = [
   },
   {
     title: `Web 3`,
-    image: `/web_dev.svg`,
+    image: `/web3.svg`,
     link: `/services/digital-campaign`,
     content: `Web3 is an idea for a new iteration of the World Wide Web which incorporates concepts such as decentralization, blockchain technologies, and token-based economics.`,
   },
@@ -381,7 +381,7 @@ const domains = [
   },
   {
     title: `Cyber Security`,
-    image: `/web_dev.svg`,
+    image: `/cyber.svg`,
     link: `/services/digital-campaign`,
     content: `Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks. These cyberattacks are usually aimed at accessing, changing, or destroying sensitive information; extorting money from users; or interrupting normal business processes.`,
   },

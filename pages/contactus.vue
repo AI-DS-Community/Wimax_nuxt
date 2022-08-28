@@ -20,7 +20,7 @@
       "
       @submit="contactus"
     >
-      <h2 class="w-full text-5xl font-bold leading-tight text-blue-300">
+      <h2 class="w-full text-5xl text-center font-bold leading-tight text-blue-300">
         CONTACT US
       </h2>
       <div class="px-4">
@@ -58,7 +58,7 @@
             w-full
             p-2
             rounded
-            text-blue-300
+            text-black
             focus:outline-none
             focus:ring
             focus:ring-opacity-25
@@ -82,7 +82,7 @@
             p-2
             rounded
             autoexpand
-            text-blue-300
+            text-black
             focus:outline-none
             focus:ring
             focus:ring-opacity-25
@@ -110,13 +110,13 @@
             font-bold
             rounded
             shadow
-            text-blue-300
+            bg-blue-300
+            text-white
             focus:outline-none focus:ring
             hover:ring
             focus:ring-opacity-50
-            dark:bg-orange-500
-            focus:ring-orange-400
-            hover:ring-orange-500
+            focus:ring-white
+            hover:ring-white
             dark:text-gray-900
           "
         >
@@ -148,7 +148,7 @@ async function contactus(event) {
   });
   if (result.status === 200) {
     message.value.type = "success";
-    message.value.content = "Your application was successfully submitted!";
+    message.value.content = "Thanks for contacting us !";
   } else {
     message.value.type = "error";
     message.value.content = "Something went wrong.";

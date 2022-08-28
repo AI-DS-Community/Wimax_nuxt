@@ -20,7 +20,7 @@
       "
       @submit="joinus"
     >
-      <h2 class="w-full text-3xl font-bold leading-tight text-blue-300">
+      <h2 class="w-full text-3xl text-center font-bold leading-tight text-blue-300">
         JOIN US
       </h2>
       <div class="px-4">
@@ -182,13 +182,14 @@
             font-bold
             rounded
             shadow
-            text-blue-300
+            bg-blue-300
+            text-white
             focus:outline-none focus:ring
             hover:ring
             focus:ring-opacity-50
-            dark:bg-orange-500
-            focus:ring-orange-400
-            hover:ring-orange-500
+            dark:bg-white
+            focus:ring-white
+            hover:ring-white
             dark:text-gray-900
           "
         >
