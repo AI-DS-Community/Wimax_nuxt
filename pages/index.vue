@@ -6,17 +6,17 @@
       </a>
     </div>
 
-    <div class="text-2xl text-white px-4">
+    <div class="content text-2xl text-white px-4">
       <div
-        class="
+        class="v3
           font-semibold
           italic
           break-words
           lg:text-center lg:max-w-2xl lg:mx-auto
         "
-      >
+      > <p>
         “One whose ideal is mortal dies when his ideal is achieved. But one
-        whose ideal is immortal must become immortal himself to attain it”
+        whose ideal is immortal must become immortal himself to attain it” </p>
       </div>
     </div>
 
@@ -28,9 +28,10 @@
       class="
         grid grid-cols-1
         grid-rows-2
+        gap-36
         lg:grid-cols-2
         lg:grid-rows-1
-        gap-8
+        lg:gap-8
         justify-between
         items-center
         bg-gray-900
@@ -186,6 +187,25 @@
 </template>
 
 <style scoped>
+  .content {
+  margin-bottom: 4em;
+}
+.content p {
+  display: inline;
+  background-repeat: no-repeat;
+  transition: all 500ms ease-in-out;
+}
+.v3 p {
+  color: transparent;
+  background-position: right;
+  background-size: 100% 100%;
+  background-image: linear-gradient(rgb(147 197 253), rgb(147 197 253));
+}
+.v3:hover p {
+  color: rgba(230, 76, 60, 0.99) ;
+  background-size: 0% 100%;
+}
+
 .c {
   display: flex;
   justify-content: center;
@@ -235,7 +255,7 @@
 }
 
 .a {
-  color: rgb(249, 115, 22);
+  color: rgba(230, 76, 60, 0.99);
   text-shadow: 0 20px 25px rgb(42, 51, 61), 0 40px 60px rgb(42, 51, 61);
   font-size: 80px;
   font-weight: bold;
@@ -292,12 +312,7 @@
   padding: 5rem;
 }
 
-.heading {
-  color: #eee;
-  font-size: 5rem;
-  font-weight: 300;
-  text-transform: uppercase;
-}
+
 </style>
 
 <script setup>
