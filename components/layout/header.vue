@@ -1,5 +1,5 @@
 <template>
-  <header :class="`flex flex-row w-full z-50 relative bg-gray-800`">
+  <header :class="`flex flex-row w-full z-50 relative bg-gray-900 border-chaos-foreground border-b-2`">
     <div :class="`flex flex-row w-full items-center p-4`">
       <div :class="`flex flex-row items-center justify-center lg:hidden`">
         <button
@@ -47,7 +47,7 @@
       <div
         :class="`flex flex-col lg:flex-row lg:justify-between transition duration-500 ease-in-out transform absolute lg:static top-16 left-0 ${
           navOpen ? `-translate-x-0` : `-translate-x-140`
-        } space-y-4 lg:space-y-0 lg:space-x-4 lg:items-center text-base lg:translate-x-0 lg:max-w-8xl w-full text-white uppercase font-semibold lg:mx-auto bg-gray-800 py-8 lg:py-0 px-8 lg:px-1 min-h-screen lg:min-h-0 overflow-y-auto`"
+        } space-y-4 lg:space-y-0 lg:space-x-4 lg:items-center text-base lg:translate-x-0 lg:max-w-8xl w-full text-white uppercase font-semibold lg:mx-auto bg-gray-900 py-8 lg:py-0 px-8 lg:px-1 min-h-screen lg:min-h-0 overflow-y-auto`"
       >
         <div class = 'flex items-center'>
           <a
@@ -79,6 +79,7 @@ const navOpen = ref(false);
 const navList = [
   { name: "HOME", key: "home", route: "/" },
   { name: "ABOUT US", key: "about us", route: "/#about" },
+  { name: "PROJECTS", key: "contact us", route: "/projects" },
   { name: "JOIN US", key: "join us", route: "/joinus" },
   { name: "CONTACT US", key: "contact us", route: "/contactus" },
 ];
