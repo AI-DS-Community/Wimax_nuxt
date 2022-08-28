@@ -21,7 +21,7 @@
       @submit="joinus"
     >
       <h2 class="w-full text-3xl font-bold leading-tight text-blue-300">
-        join us
+        JOIN US
       </h2>
       <div class="px-4">
         <label for="name" class="block mb-1 ml-1 text-orange-500">Name</label>
