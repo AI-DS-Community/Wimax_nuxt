@@ -4,13 +4,29 @@
             <div class="max-w-lg mx-auto text-center">
                 <!--<h2 class="text-3xl font-bold sm:text-4xl mb-4">Choose your Domain</h2>
                 <h1 class="text-3xl font-bold sm:text-3xl mb-4"> Kickstart your career</h1>-->
-                <h1 class="text-3xl font-bold sm:text-1xl mb-10 ">Set your path in right domain</h1>
+                <h1 class="lg:text-4xl font-bold text-2xl mb-12">Make your IMPACT in the Right Field</h1>
                 <p class="mt-4 text-gray-300">
                     
                 </p>
             </div>
 
-            <div class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3">
+    <div class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3">
+            <a class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+                    href="/services/digital-campaigns">
+                    <img src="\game_dev.svg" alt="" width="50px">
+
+                    <h3 class="mt-4 text-xl font-bold text-white">Game Development</h3>
+
+                    <p class="mt-3 text-sm text-gray-300">
+                        The art of creating games and describes the design, development and release of a game.Involves 
+                        •	concept generation
+                        •	Design
+                        •	Build
+                        •	Test
+                        •	release
+                    </p>
+                </a>
+
                 <a class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
                     href="/services/digital-campaigns">
                     <!--<svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-pink-500" fill="none"
@@ -35,6 +51,18 @@
 
                 <a class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
                     href="/services/digital-campaigns">
+                    <img src="\devops.svg" alt="" width="50px">
+
+                    <h3 class="mt-4 text-xl font-bold text-white">DevOps</h3>
+
+                    <p class="mt-3 text-sm text-gray-300">
+                        The combination of cultural philosophies, practices, and tools that increases an organization’s ability to deliver applications and services at high velocity. 
+.
+                    </p>
+                </a>
+
+                <a class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+                    href="/services/digital-campaigns">
                     <img src="https://static.invozone.com/uploads/2021/01/Custom-On-Demand-App-Development-Solutions.svg" alt="" width="50px">
 
                     <h3 class="mt-4 text-xl font-bold text-white">App Development</h3>
@@ -44,10 +72,20 @@
 .
                     </p>
                 </a>
+                <a class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+                    href="/services/digital-campaigns">
+                    <img src="https://www.technotronix.us/images/turnkey-electronics-manufacturing-services.svg" alt="" width="50px">
+
+                    <h3 class="mt-4 text-xl font-bold text-white">Artificial Intelligence</h3>
+
+                    <p class="mt-3 text-sm text-gray-300">
+                        The concept of developing machines to mimic human nature and behavior. Make machines to think like us, to take decisions like us, to understand and express the human emotions like us. 
+                    </p>
+                </a>
 
                 <a class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
                     href="/services/digital-campaigns">
-                    <img src="https://www.svgrepo.com/show/97359/analytics.svg" alt="" width="50px">
+                    <img src="ds.svg" alt="" width="50px">
 
                     <h3 class="mt-4 text-xl font-bold text-white">Data Science</h3>
 
@@ -58,12 +96,12 @@
 
                 <a class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
                     href="/services/digital-campaigns">
-                    <img src="https://www.technotronix.us/images/turnkey-electronics-manufacturing-services.svg" alt="" width="50px">
+                    <img src="\ml.svg" alt="" width="50px">
 
-                    <h3 class="mt-4 text-xl font-bold text-white">Ai & Ml</h3>
+                    <h3 class="mt-4 text-xl font-bold text-white">Machine Learning</h3>
 
                     <p class="mt-3 text-sm text-gray-300">
-                        The use and development of computer systems that are able to learn and adapt without following explicit instructions, by using algorithms and statistical models to analyse and draw inferences from patterns in data.
+                        the use and development of computer systems that are able to learn and adapt without following explicit instructions, by using algorithms and statistical models to analyse and draw inferences from patterns in data. 
                     </p>
                 </a>
 
@@ -79,7 +117,7 @@
 
                 <a class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
                     href="/services/digital-campaigns">
-                    <img src="https://oodle.io/wp-content/uploads/2022/01/icon-digital-marketing-advertising.svg" alt="" width="50px">
+                    <img src="doc.svg" alt="" width="50px">
 
                     <h3 class="mt-4 text-xl font-bold text-white">Documentation</h3>
 
@@ -100,9 +138,20 @@
 
                 <a class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
                     href="/services/digital-campaigns">
-                    <img src="https://899967.smushcdn.com/2182468/wp-content/uploads/2021/03/Embedded-icon.png?size=200x201&lossy=0&strip=1&webp=1" alt="" width="50px">
+                    <img src="blockchain.svg" alt="" width="50px">
 
-                    <h3 class="mt-4 text-xl font-bold text-white">IoT</h3>
+                    <h3 class="mt-4 text-xl font-bold text-white">BlockChain</h3>
+
+                    <p class="mt-3 text-sm text-gray-300">
+                    Blockchain = Decentralization. The goal of blockchain is to allow digital information to be recorded and distributed, but not edited. Provides enhanced security, transparency, traceability, automation and efficiency. 
+                    </p>
+                </a>
+
+                <a class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+                    href="/services/digital-campaigns">
+                    <img src="iot.svg" alt="" width="50px">
+
+                    <h3 class="mt-4 text-xl font-bold text-white">Internet of Things</h3>
 
                     <p class="mt-3 text-sm text-gray-300">
                     The Internet of things describes physical objects with sensors, processing ability, software, and other technologies that connect and exchange data with other devices and systems over the Internet or other communications networks .
@@ -120,7 +169,32 @@
                     </p>
                 </a>
 
+            <a class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+                    href="/services/digital-campaigns">
+                    <img src="\3dmod.svg" alt="" width="50px">
+
+                    <h3 class="mt-4 text-xl font-bold text-white">3D Modelling</h3>
+
+                    <p class="mt-3 text-sm text-gray-300">
+                        3D modeling is the art of developing a mathematical coordinate-based representation of any surface of an object in three dimensions via specialized software by manipulating edges, vertices, and polygons in a simulated 3D space
+.
+                    </p>
+                </a>
+
+            <a class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+                    href="/services/digital-campaigns">
+                    <img src="\test.svg" alt="" width="50px">
+
+                    <h3 class="mt-4 text-xl font-bold text-white">Testing</h3>
+
+                    <p class="mt-3 text-sm text-gray-300">
+                        The process of evaluating and verifying that a software product or application does what it is supposed to do. The benefits of testing include preventing bugs, reducing development costs and improving performance.
+.
+                    </p>
+                </a>
+
             </div>
+
 
             <div class="mt-12 text-center">
                 <a class="inline-flex items-center px-8 py-3 mt-8 text-white bg-pink-600 border border-pink-600 rounded hover:bg-transparent active:text-pink-500 focus:outline-none focus:ring"
