@@ -36,7 +36,7 @@
             w-full
             p-2
             rounded
-            text-blue-300
+            text-black
             focus:outline-none
             focus:ring
             focus:ring-opacity-25
