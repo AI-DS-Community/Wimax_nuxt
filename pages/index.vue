@@ -12,6 +12,8 @@
           font-semibold
           italic
           break-words
+          text-3xl
+          tracking-widest
           lg:text-center lg:max-w-2xl lg:mx-auto
         "
       > <p>
@@ -32,11 +34,7 @@
         gap-36
         lg:grid-cols-2
         lg:grid-rows-1
-<<<<<<< HEAD
         lg:gap-8
-=======
-        gap-12
->>>>>>> 5e7cff3e06b33953253175a849f4bf6e54911548
         justify-between
         items-center
         bg-gray-900
