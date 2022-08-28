@@ -14,7 +14,7 @@
         transition-all
         duration-500
         ease-in-out
-        hover:shadow-pink-500/10 hover:border-pink-500/10
+        hover:shadow-blue-400/10 hover:border-blue-400/10
       "
       data-aos="fade-up"
       data-aos-easing="linear"
@@ -26,7 +26,7 @@
     </div>
       <div class="flex flex-col items-center lg:items-start space-y-1 p-2">
         <div class="flex flex-row items-center space-x-4">
-          <a :href="content.github" class="stroke-chaos-foreground stroke-2 block transition duration-500 ease-in-out transform hover:-translate-y-1">
+          <a :href="content.github" class="stroke-blue-400 stroke-2 block transition duration-500 ease-in-out transform hover:-translate-y-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -42,7 +42,7 @@
               ></path>
             </svg>
           </a>
-          <a :href="content.link" class="stroke-chaos-foreground stroke-2 block transition duration-500 ease-in-out transform hover:-translate-y-1">
+          <a :href="content.link" class="stroke-blue-400 stroke-2 block transition duration-500 ease-in-out transform hover:-translate-y-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"

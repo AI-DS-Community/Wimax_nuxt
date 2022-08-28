@@ -24,7 +24,7 @@
         JOIN US
       </h2>
       <div class="px-4">
-        <label for="name" class="block mb-1 ml-1 text-orange-500">Name</label>
+        <label for="name" class="block mb-1 ml-1 text-blue-400">Name</label>
         <input
           name="name"
           id="name"
@@ -40,13 +40,13 @@
             focus:outline-none
             focus:ring
             focus:ring-opacity-25
-            focus:ring-orange-500
+            focus:ring-blue-400
             dark:bg-gray-800
           "
         />
       </div>
       <div class="px-4">
-        <label for="number" class="block mb-1 ml-1 text-orange-500"
+        <label for="number" class="block mb-1 ml-1 text-blue-400"
           >Number</label
         >
         <input
@@ -64,13 +64,13 @@
             focus:outline-none
             focus:ring
             focus:ring-opacity-25
-            focus:ring-orange-500
+            focus:ring-blue-400
             dark:bg-gray-800
           "
         />
       </div>
       <div class="px-4">
-        <label for="email" class="block mb-1 ml-1 text-orange-500">Email</label>
+        <label for="email" class="block mb-1 ml-1 text-blue-400">Email</label>
         <input
           name="email_id"
           id="email"
@@ -86,13 +86,13 @@
             focus:outline-none
             focus:ring
             focus:ring-opacity-25
-            focus:ring-orange-500
+            focus:ring-blue-400
             dark:bg-gray-800
           "
         />
       </div>
       <div class="px-4">
-        <label for="skillsKnown" class="block mb-1 ml-1 text-orange-500"
+        <label for="skillsKnown" class="block mb-1 ml-1 text-blue-400"
           >Skills Known</label
         >
         <textarea
@@ -110,13 +110,13 @@
             focus:outline-none
             focus:ring
             focus:ring-opacity-25
-            focus:ring-orange-500
+            focus:ring-blue-400
             dark:bg-gray-800
           "
         ></textarea>
       </div>
       <div class="px-4">
-        <label for="skillsAcquire" class="block mb-1 ml-1 text-orange-500"
+        <label for="skillsAcquire" class="block mb-1 ml-1 text-blue-400"
           >Skills to Acquire</label
         >
         <textarea
@@ -134,13 +134,13 @@
             focus:outline-none
             focus:ring
             focus:ring-opacity-25
-            focus:ring-orange-500
+            focus:ring-blue-400
             dark:bg-gray-800
           "
         ></textarea>
       </div>
       <div class="px-4">
-        <label for="interest" class="block mb-1 ml-1 text-orange-500"
+        <label for="interest" class="block mb-1 ml-1 text-blue-400"
           >Field of Interest</label
         >
         <textarea
@@ -158,7 +158,7 @@
             focus:outline-none
             focus:ring
             focus:ring-opacity-25
-            focus:ring-orange-500
+            focus:ring-blue-400
             dark:bg-gray-800
           "
         ></textarea>

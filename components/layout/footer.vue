@@ -1,7 +1,7 @@
 <template>
     <section id="footer" class="flex flex-wrap shadow-lg justify-center lg:justify-between items-center w-full bg-gray-900 px-6 py-3 z-10">
         <div>
-            <a href="/" class="text-center text-blue-300 font-semibold text-xl hover:text-orange-500">WiMaX</a>
+            <a href="/" class="text-center text-blue-300 font-semibold text-xl hover:text-blue-400">WiMaX</a>
         </div>
         <div class="text-blue-300 text-m invisible lg:visible">
             <p>Developed by Students of AI & DS</p>

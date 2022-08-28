@@ -49,7 +49,7 @@
             font-semibold
             text-3xl
             py-4
-            hover:text-orange-500
+            hover:text-blue-400
             cursor-pointer
           "
         >
@@ -94,11 +94,11 @@
               border border-gray-800
               shadow-xl
               rounded-xl
-              hover:shadow-pink-500/10 hover:border-pink-500/10
+              hover:shadow-blue-400/10 hover:border-blue-400/10
             "
             href="/services/digital-campaigns"
           ></a>
-            <!--<svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-pink-500" fill="none"
+            <!--<svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-blue-400" fill="none"
                         viewBox="0 0 24 24" stroke="currentColor">
                         <path d="M12 14l9-5-9-5-9 5 9 5z" />
                         <path
@@ -119,11 +119,11 @@
               py-3
               mt-8
               text-white
-              bg-pink-600
-              border border-pink-600
+              bg-blue-400
+              border border-blue-400
               rounded
               hover:bg-transparent
-              active:text-pink-500
+              active:text-blue-400
               focus:outline-none focus:ring
             "
             href="/joinus"
@@ -153,7 +153,7 @@
 
     <!-- <section id="about" class="container-fluid flex justify-between items-center bg-gray-900 px-6 py-3">
         <div class="w-1/2 px-8 py-4">
-            <h1 class="text-center text-blue-300 font-semibold text-3xl py-4 hover:text-orange-500 cursor-pointer">About Us</h1>
+            <h1 class="text-center text-blue-300 font-semibold text-3xl py-4 hover:text-blue-400 cursor-pointer">About Us</h1>
             <p class="text-center text-sm text-blue-300">This is WiMaX, a club initiated by the STUDENTS of artificial intelligence and data science department of Easwari Engineering college. WiMaX is not just a club but also a COMMUNITY for our students to sharpen their skills in their interested domain and to explore new domains. Our ideology is focused on COLLECTIVE GROWTH. We help among ourselves by GAINING KNOWLEDGE from others and TEACHING their KNOWLEDGE to others. We try to bring our IDEAS to real life to make an IMPACT in our society and the world and an INSPIRATION to our younger generation.</p>
         </div>
         <div class="w-1/2 px-8 py-4">
