@@ -1,5 +1,5 @@
 <template>
-    <section id="contact" class="flex justify-center items-center h-full bg-blue-700 px-6 py-3">
+    <section id="contact" class="flex justify-center items-center h-full bg-grey-700 px-6 py-3">
         <form ref = "join" novalidate="" class="container-fluid w-full max-w-xl p-8 mx-auto space-y-6 rounded-md shadow dark:bg-gray-900 ng-untouched ng-pristine ng-valid" @submit="joinus">
             <h2 class="w-full text-3xl font-bold leading-tight text-blue-300">Contact us</h2>
             <div class="px-4 ">
@@ -34,13 +34,7 @@
 </template>
 
 <style scoped>
-    section {
-        background-color: rgb(3 105 161);
-    }
-    form {
-        background-color: rgb(2 132 199);
-        box-shadow: 2px 2px 2px rgba(56 189 248);
-    }
+    
 </style>
 
 <script setup>

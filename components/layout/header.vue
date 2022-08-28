@@ -1,17 +1,18 @@
 <template>
   <section id="header" class="container-fluid flex justify-between items-center shadow-2xl w-full bg-gray-900 px-8 py-4 sticky top-0 z-10">
         <div>
-            <!-- <img src="images\logo.png" alt="logowimax" class="img-responsive w-12"> -->
-            <h1 class="text-3xl text-blue-300 font-semibold hover:cursor-pointer hover:text-orange-500">Wimax</h1>
+             <img src="components\data\logo2.jpg" alt="logowimax" class="img-responsive w-12">
+          
         </div>
         <div>
             <nav>
                 <ul>
-                    <a href="/" class="font-semibold text-blue-300 px-4 py-2">Home</a>
-                    <a href="/#about" class="font-semibold text-blue-300 px-4 py-2 ">About Us</a>
-                    <a href="/#projects" class="font-semibold text-blue-300 px-4 py-2 ">Projects</a>
-                    <a href="/contactus" class="font-semibold text-blue-300 px-4 py-2 ">Contact Us</a>
-                    <a href="/joinus" class="font-semibold text-blue-300 px-4 py-2">Join Us</a>
+                    <a href="/" class="font-semibold text-blue-300 px-4 py-2">HOME</a>
+                    <a href="/#about" class="font-semibold text-blue-300 px-4 py-2 ">ABOUT US</a>
+                    <a href="/domains" class="font-semibold text-blue-300 px-4 py-2">DOMAINS</a>
+                    <a href="/#projects" class="font-semibold text-blue-300 px-4 py-2 ">PROJECTS</a>
+                    <a href="/contactus" class="font-semibold text-blue-300 px-4 py-2 ">CONTACT US</a>
+                    <a href="/joinus" class="font-semibold text-blue-300 px-4 py-2">JOIN US</a>
 
                 </ul>
             </nav>
@@ -29,6 +30,13 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+#logo{ 
+	position:fixed; 
+	top:0; 
+	left:50; 
+    }
+
   section {
     animation: headeranim 2s;
   }
