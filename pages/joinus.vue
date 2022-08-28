@@ -26,6 +26,9 @@
                 <label for="interest" class="block mb-1 ml-1 text-orange-500">Field of Interest</label>
                 <textarea name= "intrested" id="interest" type="text" placeholder="Field of interest..." class="block w-full p-2 rounded autoexpand text-blue-300 focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-orange-500 dark:bg-gray-800"></textarea>
             </div>
+            <div class = "px-4">
+                <MiscMessage :class = "`${message.content ? 'max-h-[20rem]' : 'max-h-0'} transition-all duration-500 ease-in-out`" :type="message.type">{{message.content}}</MiscMessage>
+            </div>
             <div class="px-4 ">
                 <button type="submit" class="w-full px-4 py-2 font-bold rounded shadow text-blue-300 focus:outline-none focus:ring hover:ring focus:ring-opacity-50 dark:bg-orange-500 focus:ring-orange-400 hover:ring-orange-500 dark:text-gray-900" >Send</button>
             </div>
@@ -42,6 +45,8 @@ definePageMeta({
     title: "membership form"
 })
 
+const message = ref({type: "", content: ""})
+
 const join = ref(null)
 async function joinus(event){
     event.preventDefault();
@@ -53,6 +58,14 @@ async function joinus(event){
             );
             console.log(allEntries)
             const result = await fetch("/api/join",{method: "POST",body: JSON.stringify(allEntries)});
+            if(result.status === 200) {
+                message.value.type = "success";
+                message.value.content = "Your application was successfully submitted!";
+            }
+            else {
+                message.value.type = "error";
+               message.value.content = "Something went wrong.";
+            }
     }
 
 </script>
