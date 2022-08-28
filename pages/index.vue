@@ -333,7 +333,7 @@
             "
             href="/services/digital-campaigns"
           >
-            <img src="blockchain.svg" alt="" width="50px" />
+            <img src="/blockchain.svg" alt="" width="50px" />
 
             <h3 class="mt-4 text-xl font-bold text-white">BlockChain</h3>
 
@@ -357,7 +357,7 @@
             "
             href="/services/digital-campaigns"
           >
-            <img src="iot.svg" alt="" width="50px" />
+            <img src="/iot.svg" alt="" width="50px" />
 
             <h3 class="mt-4 text-xl font-bold text-white">
               Internet of Things
