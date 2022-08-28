@@ -1,41 +1,4 @@
 <template>
-  <div class="home">
-    
-
-    <!----------------------------------- Home -------------------------------------------->
-    <section id="home" class="container-fluid flex justify-between items-center h-screen bg-gray-900 px-6 py-3">
-        <div class="w-1/2 px-8 py-4">
-            <img src=" " alt="home">
-        </div>
-        <div class="w-1/2 px-8 py-4">
-            <p class="text-blue-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia expedita soluta assumenda sequi ad ut eligendi nobis. Eligendi temporibus quasi quibusdam mollitia est laudantium doloremque.</p>
-        </div>
-    </section>
-
-    <!----------------------------------- About -------------------------------------------->
-
-    <section id="about" class="container-fluid flex justify-between items-center h-screen bg-gray-900 px-6 py-3">
-        <div class="w-1/2 px-8 py-4">
-            <p class="text-blue-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia expedita soluta assumenda sequi ad ut eligendi nobis. Eligendi temporibus quasi quibusdam mollitia est laudantium doloremque.</p>
-        </div>
-        <div class="w-1/2 px-8 py-4">
-            <img src=" " alt="home">
-        </div> 
-    </section>
-    <!----------------------------------- Projects -------------------------------------------->
-
-    <section id="projects" class="container-fluid flex justify-between items-center h-screen bg-gray-900 px-6 py-3">
-        <div class="w-1/2 px-8 py-4">
-            <img src=" " alt="home">
-        </div>
-        <div class="w-1/2 px-8 py-4">
-            <p class="text-blue-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia expedita soluta assumenda sequi ad ut eligendi nobis. Eligendi temporibus quasi quibusdam mollitia est laudantium doloremque.</p>
-            <button type="button" class="px-8 py-3 font-semibold border rounded dark:border-gray-100 dark:text-gray-100">Border</button>
-        </div>
-        
-    </section>
-    <!----------------------------------- Contact -------------------------------------------->
-
     <section id="contact" class="flex justify-center items-center h-screen bg-gray-900 px-6 py-3">
         <form ref="contact" novalidate="" class="container-fluid w-full max-w-xl p-8 mx-auto space-y-6 rounded-md shadow dark:bg-gray-900 ng-untouched ng-pristine ng-valid" @submit="contactus">
             <h2 class="w-full text-3xl font-bold leading-tight text-blue-300">Contact us</h2>
@@ -56,14 +19,12 @@
             </div>
         </form>
     </section>
-    <!----------------------------------- Footer -------------------------------------------->
-  </div>
 </template>
 
 <script setup>
-    definePageMeta({
-        title: 'veedu',
-    })
+definePageMeta({
+    title: 'contactus-form',
+})
 
 const contact = ref(null)
 async function contactus(event){

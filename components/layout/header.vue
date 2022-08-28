@@ -10,7 +10,7 @@
                     <a href="/" class="font-semibold text-blue-300 px-4 py-2">Home</a>
                     <a href="/#about" class="font-semibold text-blue-300 px-4 py-2 ">About Us</a>
                     <a href="/#projects" class="font-semibold text-blue-300 px-4 py-2 ">Projects</a>
-                    <a href="/#contact" class="font-semibold text-blue-300 px-4 py-2 ">Contact Us</a>
+                    <a href="/contactus" class="font-semibold text-blue-300 px-4 py-2 ">Contact Us</a>
                     <a href="/joinus" class="font-semibold text-blue-300 px-4 py-2">Join Us</a>
 
                 </ul>
