@@ -16,6 +16,7 @@
     "pinia": "^2.0.21"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "daisyui": "^2.24.0"
   }
 }

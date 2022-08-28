@@ -4,13 +4,13 @@
       <div :class="`flex flex-row items-center justify-center lg:hidden`">
         <button
           :class="`
-            inline-flex
-            items-center
-            justify-center
-            p-2
-            rounded-md
-          text-white focus:outline-none
-                    `"
+                    inline-flex
+                    items-center
+                    justify-center
+                    p-2
+                    rounded-md
+                  text-white focus:outline-none
+        `"
           @click="toggleBoth"
         >
           <span :class="`sr-only`">Open menu</span>
@@ -47,31 +47,26 @@
       <div
         :class="`flex flex-col lg:flex-row lg:justify-between transition duration-500 ease-in-out transform absolute lg:static top-16 left-0 ${
           navOpen ? `-translate-x-0` : `-translate-x-140`
-        } space-y-4 lg:space-y-0 lg:space-x-4 lg:items-center text-base lg:translate-x-0 lg:max-w-8xl w-full text-white uppercase font-semibold lg:mx-auto bg-gray-800 py-8 lg:py-2 px-8 lg:px-1 min-h-screen lg:min-h-0 overflow-y-auto`"
+        } space-y-4 lg:space-y-0 lg:space-x-4 lg:items-center text-base lg:translate-x-0 lg:max-w-8xl w-full text-white uppercase font-semibold lg:mx-auto bg-gray-800 py-8 lg:py-0 px-8 lg:px-1 min-h-screen lg:min-h-0 overflow-y-auto`"
       >
-      <div>
-        <a
-          :class="`hover:text-blue-300 transition duration-500 px-4 lg:px-1`"
-          href="/"
-          key="logo"
-        >
-          <img
-            src="/logo_bg.png"
-            :class="`w-16 rounded-full`"
-            alt="WiMaX"
-          />
+        <div class = 'flex items-center'>
+          <a
+            :class="`hover:text-blue-300 transition duration-500 px-4 lg:px-1`"
+            href="/"
+            key="logo"
+          >
+            <img src="/logo_bg.png" :class="`w-16 rounded-full p-0`" alt="WiMaX" />
         </a>
         </div>
-        <div class = "flex flex-row item-center">
-          
-        <a
-          v-for="x in navList"
-          :class="`hover:text-blue-300 transition duration-500 px-4 lg:px-1`"
-          :href="x.route"
-          :key="x.key"
-        >
-          {{ x.name }}
-        </a>
+        <div class="flex flex-col lg:flex-row item-center space-y-4 lg:space-y-0 lg:space-x-4">
+          <a
+            v-for="x in navList"
+            :class="`hover:text-blue-300 transition duration-500 px-4 lg:px-1 uppercase`"
+            :href="x.route"
+            :key="x.key"
+          >
+            {{ x.name }}
+          </a>
         </div>
       </div>
     </div>
@@ -81,7 +76,12 @@
 <script setup>
 const navOpen = ref(false);
 
-const  navList  = [{name:"HOME",key:"home",route:"/"},{name:"ABOUT US",key:"about us",route:"/"},{name:"DOMAINS",key:"domain",route:"/"},{name:"JOIN US",key:"join us",route:"/"},{name:"CONTACT US",key:"contact us",route:"/"}];
+const navList = [
+  { name: "HOME", key: "home", route: "/" },
+  { name: "ABOUT US", key: "about us", route: "/#about" },
+  { name: "JOIN US", key: "join us", route: "/joinus" },
+  { name: "CONTACT US", key: "contact us", route: "/contactus" },
+];
 
 const toggleOff = () => {
   navOpen.value = true;

@@ -5,8 +5,6 @@ interface contact_data {
   }
   
   const api_url = "https://fnwklfrkwfhjpkgmnlcw.supabase.co/rest/v1/contact";
-  const APIKEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZud2tsZnJrd2ZoanBrZ21ubGN3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTY2MTU4NTkyOCwiZXhwIjoxOTc3MTYxOTI4fQ.Jxw3VMfxEPzKwjJUZExeNDmVuleutPQSjWOKbqfBmGk";
-  
   export default defineEventHandler(async (event) => {
     const body = await useBody<contact_data>(event);
     try{
@@ -17,8 +15,8 @@ interface contact_data {
       body: JSON.stringify(body),
       headers: {
         "content-type": "application/json",
-        Authorization: "Bearer " + APIKEY,
-        apikey: APIKEY,
+        Authorization: "Bearer " + process.env.APIKEY,
+        apikey: process.env.APIKEY,
       },
     });
     console.log(result)
