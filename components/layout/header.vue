@@ -23,19 +23,19 @@
           >
             <g>
               <path
-                :class="`transition-all duration-500 transform ease-in-out`"
+                :class="`transition-all duration-400 transform ease-in-out`"
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 :d="navOpen ? `M4 6 L24 24` : `M4 6 L28 06`"
               />
               <path
-                :class="`transition-all duration-500 transform ease-in-out`"
+                :class="`transition-all duration-400 transform ease-in-out`"
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 :d="navOpen ? `M4 6 L24 24` : `M4 14 L 20 14`"
               />
               <path
-                :class="`transition-all duration-500 transform ease-in-out`"
+                :class="`transition-all duration-400 transform ease-in-out`"
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 :d="navOpen ? `M24 06 L 4 24` : `M04 22 L 28 22`"
