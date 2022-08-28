@@ -60,7 +60,7 @@
             w-full
             p-2
             rounded
-            text-blue-300
+            text-black
             focus:outline-none
             focus:ring
             focus:ring-opacity-25
@@ -82,7 +82,7 @@
             w-full
             p-2
             rounded
-            text-blue-300
+            text-black
             focus:outline-none
             focus:ring
             focus:ring-opacity-25
@@ -106,7 +106,7 @@
             p-2
             rounded
             autoexpand
-            text-blue-300
+            text-black
             focus:outline-none
             focus:ring
             focus:ring-opacity-25
@@ -130,7 +130,7 @@
             p-2
             rounded
             autoexpand
-            text-blue-300
+            text-black
             focus:outline-none
             focus:ring
             focus:ring-opacity-25
@@ -154,7 +154,7 @@
             p-2
             rounded
             autoexpand
-            text-blue-300
+            text-black
             focus:outline-none
             focus:ring
             focus:ring-opacity-25
