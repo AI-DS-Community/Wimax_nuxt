@@ -5,7 +5,7 @@
     <!----------------------------------- Home -------------------------------------------->
     <section id="home" class="container-fluid flex justify-between items-center h-screen bg-gray-900 px-6 py-3">
         <div class="w-1/2 px-8 py-4">
-            <img src="images\home.jpg" alt="home">
+            <img src=" " alt="home">
         </div>
         <div class="w-1/2 px-8 py-4">
             <p class="text-blue-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia expedita soluta assumenda sequi ad ut eligendi nobis. Eligendi temporibus quasi quibusdam mollitia est laudantium doloremque.</p>
@@ -19,14 +19,14 @@
             <p class="text-blue-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia expedita soluta assumenda sequi ad ut eligendi nobis. Eligendi temporibus quasi quibusdam mollitia est laudantium doloremque.</p>
         </div>
         <div class="w-1/2 px-8 py-4">
-            <img src="images\home.jpg" alt="home">
+            <img src=" " alt="home">
         </div> 
     </section>
     <!----------------------------------- Projects -------------------------------------------->
 
     <section id="projects" class="container-fluid flex justify-between items-center h-screen bg-gray-900 px-6 py-3">
         <div class="w-1/2 px-8 py-4">
-            <img src="images\home.jpg" alt="home">
+            <img src=" " alt="home">
         </div>
         <div class="w-1/2 px-8 py-4">
             <p class="text-blue-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia expedita soluta assumenda sequi ad ut eligendi nobis. Eligendi temporibus quasi quibusdam mollitia est laudantium doloremque.</p>
@@ -61,8 +61,8 @@
 </template>
 
 <script setup>
-definePageMeta({
-    title: 'veedu',
-})
+    definePageMeta({
+        title: 'veedu',
+    })
 
 </script>

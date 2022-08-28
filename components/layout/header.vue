@@ -1,5 +1,5 @@
 <template>
-  <section id="header" class="container-fluid flex justify-between items-center w-full bg-gray-900 px-8 py-4 sticky top-0">
+  <section id="header" class="container-fluid flex justify-between items-center w-full bg-gray-900 px-8 py-4 sticky top-0 z-10">
         <div>
             <!-- <img src="images\logo.png" alt="logowimax" class="img-responsive w-12"> -->
             <h1 class="inline-block text-3xl text-blue-300 font-semibold">Wimax</h1>
