@@ -24,7 +24,7 @@
         </div>
 
         <div class="w-1/2 px-8 py-4">
-            <img src="components\data\logo2.jpg" alt="home">
+            <img src="\logo_bg.png" alt="home">
         </div>
     </section>
     
