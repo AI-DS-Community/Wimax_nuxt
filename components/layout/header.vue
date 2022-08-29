@@ -58,9 +58,9 @@
             <img src="/logo_bg.png" :class="`w-16 rounded-full p-0`" alt="WiMaX" />
         </a>
         </div>
-        <div class="flex flex-col lg:flex-row item-center space-y-4 lg:space-y-0 lg:space-x-4">
+        <div id="navs" class="flex flex-col lg:flex-row item-center space-y-4 lg:space-y-0 lg:space-x-4">
           <a
-            id="navs"
+            id="underline"
             v-for="x in navList"
             :class="`hover:text-blue-300 transition duration-500 px-4 lg:px-1 uppercase`"
             :href="x.route"
@@ -75,35 +75,26 @@
 </template>
 
 <style scoped>
-  #navs {
-    background-image: linear-gradient(to right, #54b3d6, #54b3d6 50%, rgb(17 24 39) 50%);
-    background-size: 200% 100%;
-    background-position: -100%;
-    display: inline-block;
-    padding: 5px 0;
-    position: relative;
-    transition: all 0.3s ease-in-out;
-  }
+#navs a {
+  background: linear-gradient(0deg, rgb(147 197 253), rgb(147 197 253)) no-repeat right bottom / 0 var(--bg-h);
+  transition: background-size 350ms;
+  --bg-h: 100%;
+}
+#navs a:where(:hover, :focus-visible) {
+  background-size: 100% var(--bg-h);
+  background-position-x: left;
+}
 
-  #navs:before {
-    content: "";
-    background: #54b3d6;
-    display: block;
-    position: absolute;
-    bottom: -3px;
-    left: 0;
-    width: 0;
-    height: 3px;
-    transition: all 0.3s ease-in-out;
-  }
+#navs #underline {
+  padding-bottom: 4px;
+  --bg-h: 2px;
+}
 
-  #navs:hover {
-    background-position: 0;
-  }
-
-  #navs:hover::before {
-    width: 100%;
-  }
+#navs  {
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+}
 </style>
 
 <script setup>

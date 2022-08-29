@@ -4,10 +4,10 @@
             <a href="/" class="text-center text-blue-300 font-semibold text-xl hover:text-blue-400">WiMaX</a>
         </div>
 
-        <div class="text-blue-300 text-xs invisible lg:visible">
+        <div class="text-blue-300 text-xs invisible lg:visible cursor-pointer">
             <p>© Copyright 2022. All Rights Reserved.</p>
             </div>
-        <div class="text-blue-300 text-m invisible lg:visible">
+        <div class="text-blue-300 text-xs invisible lg:visible cursor-pointer">
             <p>Developed by Students of AI & DS</p>
         </div>
         <div class="grid grid-cols-3 gap-4 shadow">
