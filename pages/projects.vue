@@ -1,5 +1,5 @@
 <template>
-    <div class = "grid grid-cols-1 gap-8 max-w-7xl items-center mx-auto py-8">
+    <div class = "grid grid-cols-2 gap-8 max-w-7xl items-center mx-auto py-8">
         <CardProject v-for = "project in Projects" :key="project.title" :content="project" class = "mx-auto w-full" />
     </div>
 </template>
@@ -7,11 +7,19 @@
     const Projects = [
         {
             title: "Gesture Controlled Computer (GCC)",
-            content: "A technology to control computers and laptops using hand gestures to mimic the entire functions of mouse and some keyboard functions to ease the human computer interaction.Can be used by anyone and anywhere only with a Webcam and a system.This technology can be used in various sectors such as Smart home, Smart education, Entertainment, Self-driving cars, Gaming and medical field.",
+            content: "A technology to control computers and laptops using hand gestures to mimic the entire functions of mouse and some keyboard functions to ease the human computer interaction.Only Webcam is required. This technology can be used in various sectors such as Smart home, Smart education, Entertainment, Gaming and medical field.",
             link: "https://www.mediafire.com/file/f7cpxka5fhjlcrz/Gesture-Control-Computer.rar/file",
             github: "https://github.com/0EnIgma1/Gesture-Controlled-Computer",
             image: "/gcc.webp",
         },
+        {
+            title: "Medomaxx",
+            content: "The goal of Medomaxx is to create a medical robot with artificial intelligence. The entire concept was created with the intention of treating the sick using medication. According to a specific disease, the robot gives patients regular doses of medicine. The medical staff can provide medication to patients with this robot without coming into contact with them directly.",
+            link: "https://www.mediafire.com/file/f7cpxka5fhjlcrz/Gesture-Control-Computer.rar/file",
+            github: "https://github.com/0EnIgma1/Gesture-Controlled-Computer",
+            image: "/gcc.webp",
+        },
+        
         {
             title: "UVcoin",
             content: "UVcoin is a ERC20 token created by UV to lay a foundation on blockchain and upcoming projects on Blockchain.",
