@@ -60,8 +60,9 @@
         </div>
         <div class="flex flex-col lg:flex-row item-center space-y-4 lg:space-y-0 lg:space-x-4">
           <a
+            id="navs"
             v-for="x in navList"
-            :class="`hover:text-blue-300 transition duration-500 px-4 lg:px-1 uppercase hover:decoration-orange-300`"
+            :class="`hover:text-blue-300 transition duration-500 px-4 lg:px-1 uppercase`"
             :href="x.route"
             :key="x.key"
           >
@@ -72,6 +73,38 @@
     </div>
   </header>
 </template>
+
+<style scoped>
+  #navs {
+    background-image: linear-gradient(to right, #54b3d6, #54b3d6 50%, rgb(17 24 39) 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #navs:before {
+    content: "";
+    background: #54b3d6;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #navs:hover {
+    background-position: 0;
+  }
+
+  #navs:hover::before {
+    width: 100%;
+  }
+</style>
 
 <script setup>
 const navOpen = ref(false);
