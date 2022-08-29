@@ -90,7 +90,7 @@
 
         <div class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3">
             <CardDomain v-for="domain in domains" :key="domain.title" :content = "domain" />
-          <a
+          <!--<a>
             class="
               block
               p-8
@@ -101,7 +101,7 @@
               hover:shadow-blue-400/10 hover:border-blue-400/10
             "
             href="/services/digital-campaigns"
-          ></a>
+           </a>-->
             <!--<svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-blue-400" fill="none"
                         viewBox="0 0 24 24" stroke="currentColor">
                         <path d="M12 14l9-5-9-5-9 5 9 5z" />
