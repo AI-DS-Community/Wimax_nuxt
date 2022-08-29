@@ -52,8 +52,9 @@
         <input
           name="phone"
           id="number"
-          type="number"
+          type="tel"
           placeholder="Your number"
+          pattern="[0-9]{5}-[0-9]{5}"
           required=""
           class="
             block

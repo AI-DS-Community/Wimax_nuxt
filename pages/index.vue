@@ -1,5 +1,5 @@
 <template>
-  <div class="home flex flex-col space-y-16 px-2">
+  <div class="home flex flex-col space-y-16 px-2 snap-center">
     <div id="spinningText" class="flex h-[80vh]">
       <div id='stars'></div>
       <div id='stars2'></div>
@@ -181,6 +181,10 @@
   display: inline;
   background-repeat: no-repeat;
   transition: all 500ms ease-in-out;
+}
+
+svg {
+  stroke: #93c5fd;
 }
 
 /*
