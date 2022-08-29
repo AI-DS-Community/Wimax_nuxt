@@ -59,7 +59,7 @@
         >
           WiMaX
         </h1>
-        <p class="c text-justify">
+        <p class="c italic text-justify">
           "This is WiMaX, a club initiated by the STUDENTS of artificial
           intelligence and data science department of Easwari Engineering
           college. WiMaX is not just a club but also a COMMUNITY for our

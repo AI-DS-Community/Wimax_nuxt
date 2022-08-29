@@ -5,7 +5,7 @@
         </div>
 
         <div class="text-blue-300 text-xs invisible lg:visible">
-            <p>© Copyright 2021. All Rights Reserved.</p>
+            <p>© Copyright 2022. All Rights Reserved.</p>
             </div>
         <div class="text-blue-300 text-m invisible lg:visible">
             <p>Developed by Students of AI & DS</p>
