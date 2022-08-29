@@ -89,35 +89,13 @@
           <!--<h2 class="text-3xl font-bold sm:text-4xl mb-4">Choose your Domain</h2>
                 <h1 class="text-3xl font-bold sm:text-3xl mb-4"> Kickstart your career</h1>-->
           <h1 class="lg:text-4xl font-bold text-2xl mb-12">
-            Make your IMPACT in the Right Field
+            Make your <span class="underline inline-block decoration-red-500">IMPACT</span> in the Right Field
           </h1>
           <p class="mt-4 text-gray-300"></p>
         </div>
 
         <div class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3 bg-gray-900">
-            <CardDomain v-for="domain in domains" :key="domain.title" :content = "domain" />
-          <!--<a>
-            class="
-              block
-              p-8
-              transition
-              border border-gray-800
-              shadow-xl
-              rounded-xl
-              hover:shadow-blue-400/10 hover:border-blue-400/10
-            "
-            href="/services/digital-campaigns"
-           </a>-->
-            <!--<svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-blue-400" fill="none"
-                        viewBox="0 0 24 24" stroke="currentColor">
-                        <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                        <path
-                            d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
-                    </svg>
-                    -->
-            
+            <CardDomain v-for="domain in domains" :key="domain.title" :content = "domain" />            
         </div>
 
         <div class="mt-12 text-center">
@@ -418,8 +396,6 @@ html {
     transform: translateY(-2000px);
   }
 }
-
-
 
 </style>
 
