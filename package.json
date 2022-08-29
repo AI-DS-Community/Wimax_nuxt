@@ -17,6 +17,8 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
-    "daisyui": "^2.24.0"
+    "daisyui": "^2.24.0",
+    "gitart-scroll-carousel": "^1.2.4",
+    "sass": "^1.54.5"
   }
 }

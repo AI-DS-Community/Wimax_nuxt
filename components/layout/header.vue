@@ -61,7 +61,7 @@
         <div class="flex flex-col lg:flex-row item-center space-y-4 lg:space-y-0 lg:space-x-4">
           <a
             v-for="x in navList"
-            :class="`hover:text-blue-300 transition duration-500 px-4 lg:px-1 uppercase`"
+            :class="`hover:text-blue-300 transition duration-500 px-4 lg:px-1 uppercase hover:decoration-orange-300`"
             :href="x.route"
             :key="x.key"
           >
