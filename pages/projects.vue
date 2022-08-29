@@ -50,6 +50,12 @@
             github: "https://github.com/0EnIgma1/GG-Snake",
             image: "/snake.svg",
         },
+        {
+            title: "WiMaX",
+            content: "The Prototype website for WiMaX",
+            link: "https://naresh1115.github.io/club/",
+            image: "/webdev.svg",
+        },
         
     ]
 
