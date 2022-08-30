@@ -18,9 +18,7 @@
     data-aos-delay="100"
     data-aos-duration="260"
   >
-  <div class="px-8 py-4 flex flex-col items-center mx-auto">
-      <img src ="https://drive.google.com/uc?export=view&id=1GC3h-i_g_cwGcssWWnkFlmNC7TgkMT-D" alt="projectday" />
-    </div>
+  
 
     <div class="px-4 lg:px-8 py-4 mx-auto">
       <div id="stars"></div>
@@ -56,6 +54,9 @@
         hologram using waveguide holographic optics and control it using Leap
         motion.
       </p>
+    </div>
+    <div class="px-8 py-4 flex flex-col items-center mx-auto">
+      <img src ="https://drive.google.com/uc?export=view&id=1GC3h-i_g_cwGcssWWnkFlmNC7TgkMT-D" alt="projectday" />
     </div>
 
   </section>
