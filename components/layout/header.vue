@@ -103,9 +103,11 @@ const navOpen = ref(false);
 const navList = [
   { name: "HOME", key: "home", route: "/" },
   { name: "ABOUT US", key: "about us", route: "/#about" },
-  { name: "PROJECTS", key: "contact us", route: "/projects" },
+  { name: "PROJECTS", key: "projects", route: "/projects" },
+  { name: "EVENTS", key: "events", route: "/events" },
   { name: "JOIN US", key: "join us", route: "/joinus" },
   { name: "CONTACT US", key: "contact us", route: "/contactus" },
+  
 ];
 
 const toggleOff = () => {
