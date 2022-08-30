@@ -110,7 +110,7 @@
             font-bold
             rounded
             shadow
-            bg-blue-300
+            bg-orange-500
             text-white
             focus:outline-none focus:ring
             hover:ring
