@@ -105,7 +105,7 @@
             content: "A simple Weather App that shows the current weather of every cities in the World.",
             github: "https://github.com/kesavaraj782/WeatherApp/tree/master",
             link: "https://lucky-salmiakki-09390f.netlify.app/",
-            image: "https://theconversation.com/why-the-weather-forecast-will-always-be-a-bit-wrong-101547",
+            image: "/project/weather.webp",
         },
         {
             title:"Diabetes dataset analysis",
