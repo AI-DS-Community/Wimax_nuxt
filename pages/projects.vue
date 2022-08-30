@@ -17,7 +17,7 @@
             content: "The goal of Medomaxx is to create a medical robot with artificial intelligence. The entire concept was created with the intention of treating the sick using medication. According to a specific disease, the robot gives patients regular doses of medicine. The medical staff can provide medication to patients with this robot without coming into contact with them directly.",
             link: "https://www.mediafire.com/file/f7cpxka5fhjlcrz/Gesture-Control-Computer.rar/file",
             github: "https://github.com/0EnIgma1/Gesture-Controlled-Computer",
-            image: "https://drive.google.com/file/d/1iDtSbPKlxm58z3494fzyRV9zM1Agzqvf/view?usp=sharing",
+            image: "/project/medo.png",
         },
         
         {
@@ -44,13 +44,13 @@
             content: "A program to convert any image into a sketch using python.Developed in python using OpenCV and Gaussian Blur ",
             link: "https://0enigma1-sketcher-sketcher-ami38g.streamlitapp.com/",
             github: "https://github.com/0EnIgma1/sketcher",
-            image: "/project/chad.webp",
+            image: "/project/chad.png",
         },
         {
             title: "StickRole",
             content: "An NFT Collection.",
             link: "https://opensea.io/collection/stickrole",
-            image: "/project/stick.webp",
+            image: "/project/stick.png",
         },
         {
             title: "GG-Snake",
