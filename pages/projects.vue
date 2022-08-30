@@ -10,7 +10,7 @@
             content: "A technology to control computers and laptops using hand gestures to mimic the entire functions of mouse and some keyboard functions to ease the human computer interaction.Only Webcam is required. This technology can be used in various sectors such as Smart home, Smart education, Entertainment, Gaming and medical field.",
             link: "https://www.mediafire.com/file/f7cpxka5fhjlcrz/Gesture-Control-Computer.rar/file",
             github: "https://github.com/0EnIgma1/Gesture-Controlled-Computer",
-            image: "https://drive.google.com/file/d/1STI7Xn-rzPfaHEGbtudBNU6P6I9eroBG/view?usp=sharing",
+            image: "/project/gcc.webp",
         },
         {
             title: "Medomaxx",
@@ -24,13 +24,13 @@
             title: "UVcoin",
             content: "UVcoin is a ERC20 token created by UV to lay a foundation on blockchain and upcoming projects on Blockchain.",
             link: "https://polygonscan.com/token/0x8811fb97951e1444a6d461df7bb4404336bc68a7",
-            image: "/project/uv.webp",
+            image: "/project/uv.png",
         },
         {
             title: "UV",
             content: "Give it a Try !..Won't regret it :) ",
             link: "https://theuvofearth.wixsite.com/stage1",
-            image: "/project/uv.webp",
+            image: "/project/uv.png",
         },
         {
             title: "Rock Paper Scissors",
@@ -56,14 +56,14 @@
             title: "GG-Snake",
             content: "A classic RETRO game.",
             github: "https://github.com/0EnIgma1/GG-Snake",
-            image: "/project/snake.svg",
+            image: "/project/snake.png",
         },
         {
             title: "WiMaX",
             content: "The Prototype website for WiMaX",
             github: "https://github.com/naresh1115/wimax",
             link: "https://naresh1115.github.io/wimax/",
-            image: "/project/webdev.svg",
+            image: "/project/webdev.png",
         },
         {
             title:"Stock Tracker",
