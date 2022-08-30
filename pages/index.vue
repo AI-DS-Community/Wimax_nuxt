@@ -92,7 +92,7 @@
           <!--<h2 class="text-3xl font-bold sm:text-4xl mb-4">Choose your Domain</h2>
                 <h1 class="text-3xl font-bold sm:text-3xl mb-4"> Kickstart your career</h1>-->
           <h1 class="lg:text-4xl font-bold text-2xl mb-12">
-            Make your <span class="underline inline-block decoration-red-500">IMPACT</span> in the Right Field
+            Make your IMPACT in the Right Field
           </h1>
           <p class="mt-4 text-gray-300"></p>
         </div>
