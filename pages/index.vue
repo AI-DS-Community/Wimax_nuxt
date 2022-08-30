@@ -53,6 +53,9 @@
       data-aos-duration="260"
     >
       <div class="px-4 lg:px-8 py-4 mx-auto">
+        <div id='stars'></div>
+      <div id='stars2'></div>
+      <div id='stars3'></div>
         <h1
           class="
             text-center text-blue-300
