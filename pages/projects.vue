@@ -17,7 +17,7 @@
             content: "The goal of Medomaxx is to create a medical robot with artificial intelligence. The entire concept was created with the intention of treating the sick using medication. According to a specific disease, the robot gives patients regular doses of medicine. The medical staff can provide medication to patients with this robot without coming into contact with them directly.",
             link: "https://www.mediafire.com/file/f7cpxka5fhjlcrz/Gesture-Control-Computer.rar/file",
             github: "https://github.com/0EnIgma1/Gesture-Controlled-Computer",
-            image: "/project/gcc.webp",
+            image: "/project/medo.webp",
         },
         
         {
@@ -61,7 +61,8 @@
         {
             title: "WiMaX",
             content: "The Prototype website for WiMaX",
-            link: "https://naresh1115.github.io/club/",
+            github: "https://github.com/naresh1115/wimax",
+            link: "https://naresh1115.github.io/wimax/",
             image: "/project/webdev.svg",
         },
         {
@@ -98,6 +99,13 @@
             content: "A simple sentiment analysis based on movie review",
             github: "https://github.com/arjunprakash027/movie_review_sentiment_rnn",
             image: "https://contenthub-static.grammarly.com/blog/wp-content/uploads/2018/03/how-to-write-movie-review.jpg",
+        },
+        {
+            title:"Weather App",
+            content: "A simple Weather App that shows the current weather of every cities in the World.",
+            github: "https://github.com/kesavaraj782/WeatherApp/tree/master",
+            link: "https://lucky-salmiakki-09390f.netlify.app/",
+            image: "https://theconversation.com/why-the-weather-forecast-will-always-be-a-bit-wrong-101547",
         },
         {
             title:"Diabetes dataset analysis",
