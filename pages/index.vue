@@ -92,7 +92,7 @@
           <!--<h2 class="text-3xl font-bold sm:text-4xl mb-4">Choose your Domain</h2>
                 <h1 class="text-3xl font-bold sm:text-3xl mb-4"> Kickstart your career</h1>-->
           <h1 class="lg:text-4xl font-bold text-2xl mb-12">
-            Make your IMPACT in the Right Field
+            Make your <span class="text-orange-500">IMPACT</span> in the Right Field
           </h1>
           <p class="mt-4 text-gray-300"></p>
         </div>
@@ -110,11 +110,11 @@
               py-3
               mt-8
               text-white
-              bg-blue-400
-              border border-blue-400
+              bg-orange-500
+              border border-white
               rounded
               hover:bg-transparent
-              active:text-blue-400
+              active:text-white
               focus:outline-none focus:ring
             "
             href="/joinus"
