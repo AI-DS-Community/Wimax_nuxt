@@ -19,9 +19,9 @@
     data-aos-duration="260"
   >
   <div class="px-8 py-4 flex flex-col items-center mx-auto">
-      <img src ="data/images/projectday.png" alt="projectday" />
+      <img src ="https://drive.google.com/uc?export=view&id=1GC3h-i_g_cwGcssWWnkFlmNC7TgkMT-D" alt="projectday" />
     </div>
-    
+
     <div class="px-4 lg:px-8 py-4 mx-auto">
       <div id="stars"></div>
       <div id="stars2"></div>
