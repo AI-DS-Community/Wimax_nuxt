@@ -20,7 +20,7 @@
       "
       @submit="joinus"
     >
-      <h2 class="w-full text-3xl text-center font-bold leading-tight text-blue-300 underline underline-offset-4 decoration-1 decoration-blue-300">
+      <h2 class="w-full text-3xl text-center font-bold leading-tight text-blue-300  decoration-blue-300">
         JOIN US
       </h2>
       <div class="px-4">

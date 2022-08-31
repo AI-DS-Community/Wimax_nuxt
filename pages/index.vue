@@ -40,7 +40,7 @@
         gap-36
         lg:grid-cols-2
         lg:grid-rows-1
-        lg:gap-8
+        lg:gap-6
         justify-between
         items-center
         bg-gray-900
@@ -89,8 +89,6 @@
     <section class="text-white bg-gray-900">
       <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 sm:py-32 lg:px-8">
         <div class="max-w-lg mx-auto text-center">
-          <!--<h2 class="text-3xl font-bold sm:text-4xl mb-4">Choose your Domain</h2>
-                <h1 class="text-3xl font-bold sm:text-3xl mb-4"> Kickstart your career</h1>-->
           <h1 class="lg:text-4xl font-bold text-2xl mb-12">
             Make your <span class="text-orange-500">IMPACT</span> in the Right Field
           </h1>
@@ -408,7 +406,7 @@ html {
 
 <script setup>
 definePageMeta({
-  title: "veedu",
+  title: "HomePage",
 });
 
 const domains = [
@@ -505,20 +503,6 @@ const domains = [
   }
 ];
 
-const contact = ref(null);
-async function contactus(event) {
-  event.preventDefault();
-  const formData = new FormData(contact.value);
-  const allEntries = Array.from(formData.entries()).reduce((acc, val) => {
-    acc[val[0]] = val[1];
-    return acc;
-  }, {});
-  console.log(allEntries);
-  const result = await fetch("/api/contact", {
-    method: "POST",
-    body: JSON.stringify(allEntries),
-  });
-}
 </script>
 <!-- 
 <script>
