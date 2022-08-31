@@ -36,7 +36,7 @@
 
           <nav class="flex flex-col mt-4 lg:text-sm text-base text-gray-500 space-y-2">
             <a class="hover:opacity-75" href="/#about"> About </a>
-            <a class="hover:opacity-75" href=""> Meet the Team </a>
+            <a class="hover:opacity-75" href="/team"> Meet the Team </a>
           </nav>
         </div>
 
