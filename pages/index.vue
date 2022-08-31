@@ -4,9 +4,9 @@
       <div id='stars'></div>
       <div id='stars2'></div>
       <div id='stars3'></div>
-      <a class="a">
+      <span class="a">
         <h1 class="text-8xl lg:text-9xl">WiMaX</h1>
-      </a>
+      </span>
     </div>
 
     <div class="content text-2xl text-white px-4">
