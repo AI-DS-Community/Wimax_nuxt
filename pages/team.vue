@@ -44,7 +44,7 @@
 					</div>
 				</div>
 				<div class="space-y-4">
-					<img alt="" class="object-cover h-56 mx-auto mb-4 bg-center rounded-sm dark:bg-gray-500" src="/person.webp">
+					<img alt="" class="object-cover h-56 mx-auto mb-4 bg-center rounded-sm dark:bg-gray-500" src="/raghu.webp">
 					<div class="flex flex-col items-center">
 						<h4 class="text-xl font-semibold">Raghuram</h4>
 						<p class="text-sm dark:text-gray-400">3rd Year</p>
