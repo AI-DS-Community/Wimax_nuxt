@@ -1,4 +1,5 @@
 <template>
+    <div class = "h-full text-center font-bold text-4xl text-blue-300 mx-auto py-8">PROJECTS</div>
     <div class = "h-full grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-7xl items-center mx-auto py-8">
         <CardProject v-for = "project in Projects" :key="project.title" :content="project" class = "mx-auto w-full" />
     </div>
