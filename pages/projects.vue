@@ -43,6 +43,12 @@
             image: "/project/rps.svg",
         },
         {
+            title: "NELSON",
+            content: "A Virtual assistant named NELSON developed using python to recognize human voice commands and perform daily actions such as weather, notification, google search, Book tickets and more.",
+            github: "https://github.com/0EnIgma1/Nelson",
+            image: "/nelson.webp",
+        },
+        {
             title: "Sketcher",
             content: "A program to convert any image into a sketch using python.Developed in python using OpenCV and Gaussian Blur ",
             link: "https://0enigma1-sketcher-sketcher-ami38g.streamlitapp.com/",
