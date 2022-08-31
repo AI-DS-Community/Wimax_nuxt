@@ -16,9 +16,11 @@ export default defineNuxtConfig({
           name: "theme-color",
           hid: "theme-color",
           content: "#EEE",
-        },    ],
+        },
+      ],
       link: [
-        { href: "/logo_bg.png", rel: "shortcut icon" },
+        { href: "/favicon.ico", rel: "shortcut icon" },
+        { href: "/apple-touch-icon.png", rel: "apple-touch-icon" },
       ],
     },
   },
@@ -27,7 +29,7 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@pinia/nuxt",
     "nuxt-schema-org",
-    '@nuxt/image-edge',
+    "@nuxt/image-edge",
   ],
   tailwindcss: {
     config: {
