@@ -1,5 +1,5 @@
 <template>
-    <div class = "flex-flex-col h-full grid grid-cols-2 gap-8 max-w-7xl items-center mx-auto py-8">
+    <div class = "h-full grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-7xl items-center mx-auto py-8">
         <CardProject v-for = "project in Projects" :key="project.title" :content="project" class = "mx-auto w-full" />
     </div>
 </template>
@@ -19,7 +19,6 @@
             github: "https://github.com/0EnIgma1/Gesture-Controlled-Computer",
             image: "/project/medo.png",
         },
-        
         {
             title: "UVcoin",
             content: "UVcoin is a ERC20 token created by UV to lay a foundation on blockchain and upcoming projects on Blockchain.",

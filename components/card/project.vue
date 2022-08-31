@@ -8,13 +8,13 @@
         lg:flex-row
         gap-8
         items-center lg:items-start
-        border border-gray-800
-        shadow-xl
-        rounded-xl
-        transition-all
+        lg:border border-gray-800
+        lg:shadow-xl
+        lg:rounded-xl
+        lg:transition-all
         duration-500
         ease-in-out
-        hover:shadow-blue-400/10 hover:border-blue-400/10
+        lg:hover:shadow-blue-400/10 lg:hover:border-blue-400/10
       "
       data-aos="fade-up"
       data-aos-easing="linear"

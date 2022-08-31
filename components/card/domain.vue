@@ -8,10 +8,10 @@
         block
         p-8
         transition-all duration-500 ease-in-out
-        border border-gray-800
-        shadow-xl
-        rounded-xl
-        hover:shadow-blue-400/10 hover:border-blue-400/10
+        lg:border border-gray-800
+        lg:shadow-xl
+        lg:rounded-xl
+        lg:hover:shadow-blue-400/10 lg:hover:border-blue-400/10
       "
       :href="content.link"
       data-aos="fade-up"
