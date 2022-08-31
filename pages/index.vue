@@ -35,6 +35,7 @@
       id="about"
       class="
         mt-12
+        max-w-7xl
         grid grid-cols-1
         grid-rows-2
         gap-36
