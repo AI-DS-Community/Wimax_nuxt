@@ -5,7 +5,7 @@
 				<h3 class="text-2xl text-blue-300 font-bold text-center leading-none sm:text-5xl">MEET THE DEVELOPERS</h3>
 			</div>
 			<div class="grid w-full grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
-				<div class="space-y-4">
+				<div class="space-y-4 ">
 					<img alt="" class="object-cover h-56 mx-auto mb-4 bg-center rounded-sm dark:bg-gray-500" src="/naveen.webp">
 					<div class="flex flex-col items-center">
 						<h4 class="text-xl font-semibold">Naveen kumar S</h4>

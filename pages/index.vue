@@ -83,7 +83,7 @@
       </div>
 
       <div class="px-8 py-4 flex flex-col items-center mx-auto">
-        <img src="/logo_bg.png" alt="about" />
+        <img src="/wimax.webp" alt="about" />
       </div>
     </section>
 
