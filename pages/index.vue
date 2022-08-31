@@ -4,7 +4,7 @@
       <div id='stars'></div>
       <div id='stars2'></div>
       <div id='stars3'></div>
-      <a class="a" href="/">
+      <a class="a">
         <h1 class="text-8xl lg:text-9xl">WiMaX</h1>
       </a>
     </div>
@@ -409,91 +409,76 @@ const domains = [
   {
     title: `Game Development`,
     image: `/game_dev.svg`,
-    link: `/services/digital-campaign`,
     content: `The art of creating games and describes the design, development
               and release of a game.`,
   },
   {
     title: `Web Development`,
     image: `/web_dev.svg`,
-    link: `/services/digital-campaign`,
     content: `The art of building, creating, and maintaining websites. Divided
               into two categories Front End and Back end.`,
   },
   {
     title: `DevOps`,
     image: `/devops.svg`,
-    link: `/services/digital-campaign`,
     content: `The combination of cultural philosophies, practices, and tools that increases an organization’s ability to deliver applications and services at high velocity.`,
   },
   {
     title: `App Development`,
     image: `/app.svg`,
-    link: `/services/digital-campaign`,
     content: `Covers both Mobile app and system app development. Application software addresses the end user and provides features to perform specific tasks and activities.`,
   },{
     title: `Artificial Intelligence`,
     image: `/3dmod.svg`,
-    link: `/services/digital-campaign`,
     content: `The concept of developing machines to mimic human nature and behavior. Make machines to think like us, to take decisions like us, to understand and express the human emotions like us.`,
   },
   {
     title: `Data Science`,
     image: `/ds.svg`,
-    link: `/services/digital-campaign`,
     content: `The art of extracting knowledge and insights from a set of data respective to its type. Plays a major role in the ongoing information era and in Artificial Intelligence.`,
   },{
     title: `Machine Learning`,
     image: `/ml.svg`,
-    link: `/services/digital-campaign`,
     content: `The use and development of computer systems that are able to learn and adapt without following explicit instructions, by using algorithms and statistical models to analyse and draw inferences from patterns in data.`,
   },
   {
     title: `Cloud Computing`,
     image: `/cloud.svg`,
-    link: `/services/digital-campaign`,
-    content: `Cloud computing is the delivery of computing services—including servers, storage, databases, networking, software, analytics, and intelligence—over the Internet to offer faster innovation.`,
+    content: `Cloud computing is the delivery of computing services—including servers, storage, databases, networking, software, analytics, and intelligence over the Internet to offer faster innovation.`,
   },
   {
     title: `Documentation`,
     image: `/doc.svg`,
-    link: `/services/digital-campaign`,
-    content: `Digital marketing is the component of marketing that uses the Internet and online based digital technologies such as desktop computers, mobile phones and other digital media and platforms to promote products and services. Wikipedia.`,
+    content: `Documentation is any communicable material that is used to describe, explain or instruct regarding some attributes of an object, system or procedure, such as its parts, assembly, installation, maintenance and use. Every project need its own documentation.`,
   },
   {
     title: `Web 3`,
     image: `/web3.svg`,
-    link: `/services/digital-campaign`,
     content: `Web3 is an idea for a new iteration of the World Wide Web which incorporates concepts such as decentralization, blockchain technologies, and token-based economics.`,
   },
   {
     title: `Blockchain`,
     image: `/blockchain.svg`,
-    link: `/services/digital-campaign`,
     content: `Blockchain = Decentralization. The goal of blockchain is to allow digital information to be recorded and distributed, but not edited. Provides enhanced security, transparency, traceability, automation and efficiency.`,
   },
   {
     title: `Internet Of Things`,
     image: `/iot.svg`,
-    link: `/services/digital-campaign`,
     content: `The Internet of things describes physical objects with sensors, processing ability, software, and other technologies that connect and exchange data with other devices and systems over the Internet or other communications networks .`,
   },
   {
     title: `Cyber Security`,
     image: `/cyber.svg`,
-    link: `/services/digital-campaign`,
     content: `Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks. These cyberattacks are usually aimed at accessing, changing, or destroying sensitive information; extorting money from users; or interrupting normal business processes.`,
   },
   {
     title: `3D Modelling`,
     image: `/3dmod.svg`,
-    link: `/services/digital-campaign`,
     content: `3D modeling is the art of developing a mathematical coordinate-based representation of any surface of an object in three dimensions via specialized software by manipulating edges, vertices, and polygons in a simulated 3D space.`,
   },
   {
     title: `Testing`,
     image: `/test.svg`,
-    link: `/services/digital-campaign`,
     content: `The process of evaluating and verifying that a software product or application does what it is supposed to do. The benefits of testing include preventing bugs, reducing development costs and improving performance. .`,
   }
 ];
