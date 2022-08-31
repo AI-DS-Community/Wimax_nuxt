@@ -5,6 +5,9 @@
     </div>
 </template>
 <script setup>
+    definePageMeta({
+        title: "Projects"
+    })
     const Projects = [
         {
             title: "Gesture Controlled Computer (GCC)",

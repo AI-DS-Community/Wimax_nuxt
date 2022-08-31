@@ -22,7 +22,7 @@
       data-aos-duration="260"
     >
     <div class = "lg:shrink-0 p-2">
-      <img :src="content.image" class = "object-cover w-full lg:w-48 lg:h-48 rounded-full" />
+      <img :src="content.image" class = "object-cover w-full h-full lg:w-48 lg:h-48 lg:rounded-full" />
     </div>
       <div class="flex flex-col items-center lg:items-start space-y-1 p-2">
         <div class="flex flex-row items-center space-x-4">

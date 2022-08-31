@@ -129,7 +129,7 @@
 
 <script setup>
 definePageMeta({
-  title: "contactus-form",
+  title: "Contact Us",
 });
 const message = ref({ type: "", content: "" });
 
