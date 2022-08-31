@@ -206,7 +206,7 @@
 
 <script setup>
 definePageMeta({
-  title: "membership form",
+  title: "Membership Form",
 });
 
 const message = ref({ type: "", content: "" });
