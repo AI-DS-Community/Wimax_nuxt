@@ -402,7 +402,7 @@ html {
 
 <script setup>
 definePageMeta({
-  title: "HomePage",
+  title: "Home",
 });
 
 const domains = [
