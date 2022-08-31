@@ -68,7 +68,7 @@
         >
           WiMaX
         </h1>
-        <p class="c italic text-justify">
+        <p class="c italic text-xl text-justify">
           "This is WiMaX, a club initiated by the STUDENTS of artificial
           intelligence and data science department of Easwari Engineering
           college. WiMaX is not just a club but also a COMMUNITY for our
@@ -424,8 +424,7 @@ const domains = [
     image: `/web_dev.svg`,
     link: `/services/digital-campaign`,
     content: `The art of building, creating, and maintaining websites. Divided
-              into two categories Front End and Back end. Involves aspects such
-              as`,
+              into two categories Front End and Back end.`,
   },
   {
     title: `DevOps`,

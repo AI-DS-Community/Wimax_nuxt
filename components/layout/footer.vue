@@ -8,7 +8,7 @@
             <p>© Copyright 2022. All Rights Reserved.</p>
             </div>
         <div class="text-blue-300 text-xs invisible lg:visible cursor-pointer">
-            <a onClick="yourlink();" style="cursor: pointer; cursor: hand;">Developed by students of AI&DS</a>
+            <a onClick="yourlink();" style="cursor: pointer; cursor: hand;"><a Developed by href="https://www.linkedin.com/in/naveen-kumar-s-921990210/">Naveen</a></a>
         </div>
         <div class="grid grid-cols-3 gap-4 shadow">
             <a href="https://github.com/AI-DS-Community" target=”_blank”><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
