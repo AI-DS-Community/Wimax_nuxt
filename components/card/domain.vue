@@ -13,7 +13,7 @@
         lg:rounded-xl
         lg:hover:shadow-blue-400/10 lg:hover:border-blue-400/10
       "
-      :href="content.link"
+      :href="content.link || `javascript:void(0)`"
       data-aos="fade-up"
       data-aos-easing="linear"
       data-aos-delay="100"
