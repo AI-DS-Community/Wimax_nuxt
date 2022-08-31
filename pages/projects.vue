@@ -5,7 +5,7 @@
     </div>
 </template>
 <script setup>
-    definePageMeta({
+    useHead({
         title: "Projects"
     })
     const Projects = [

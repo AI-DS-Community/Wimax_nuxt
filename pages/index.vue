@@ -402,8 +402,8 @@ html {
 </style>
 
 <script setup>
-definePageMeta({
-  title: "Home",
+useHead({
+  title: "Welcome",
 });
 
 const domains = [

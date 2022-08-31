@@ -128,7 +128,7 @@
 </template>
 
 <script setup>
-definePageMeta({
+useHead({
   title: "Contact Us",
 });
 const message = ref({ type: "", content: "" });

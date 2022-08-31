@@ -205,7 +205,7 @@
 </style>
 
 <script setup>
-definePageMeta({
+useHead({
   title: "Membership Form",
 });
 
