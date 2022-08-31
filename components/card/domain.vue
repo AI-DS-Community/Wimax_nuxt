@@ -19,9 +19,9 @@
       data-aos-delay="100"
       data-aos-duration="260"
     >
-      <img :src="content.image" alt="" width="50px" />
+      <img :src="content.image" :alt="content.title" width="50px" height="50px" />
 
-      <h3 class="mt-4 text-xl font-bold text-white">{{ content.title }}</h3>
+      <div class="mt-4 text-xl font-bold text-white">{{ content.title }}</div>
 
       <p class="mt-3 text-sm text-gray-300">
         {{ content.content }}

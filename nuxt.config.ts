@@ -27,6 +27,7 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@pinia/nuxt",
     "nuxt-schema-org",
+    '@nuxt/image-edge',
   ],
   tailwindcss: {
     config: {

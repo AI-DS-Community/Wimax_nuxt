@@ -34,7 +34,7 @@
             About us
           </p>
 
-          <nav class="flex flex-col mt-4 text-sm text-gray-500 space-y-2">
+          <nav class="flex flex-col mt-4 lg:text-sm text-base text-gray-500 space-y-2">
             <a class="hover:opacity-75" href="/#about"> About </a>
             <a class="hover:opacity-75" href=""> Meet the Team </a>
           </nav>
@@ -45,7 +45,7 @@
             Things we do
           </p>
 
-          <nav class="flex flex-col mt-4 text-sm text-gray-500 space-y-2">
+          <nav class="flex flex-col mt-4 lg:text-sm text-base text-gray-500 space-y-2">
             <a class="hover:opacity-75" href="/events"> Events </a>
             <a class="hover:opacity-75" href="/projects"> Projects </a>
           </nav>
@@ -56,7 +56,7 @@
             Helpful Links
           </p>
 
-          <nav class="flex flex-col mt-4 text-sm text-gray-500 space-y-2">
+          <nav class="flex flex-col mt-4 lg:text-sm text-base text-gray-500 space-y-2">
             <a class="hover:opacity-75" href="/contactus"> Contact </a>
             <a class="hover:opacity-75" href="mailto:wimaxclub@mail.com"> Mail us </a>
             <a class="hover:opacity-75" href="/joinus"> Join us </a>
