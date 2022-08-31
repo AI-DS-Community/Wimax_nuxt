@@ -2,19 +2,25 @@ import { defineNuxtConfig } from "nuxt";
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  head: {
-    title: "wimax",
-    titleTemplate: "%s wimax",
-    meta: [{
-      name: "description",
-      hid: "description",
-      content: "A club created by students of AI for students of AI",
-    },{
-      name: "theme-color",
-      hid: "theme-color",
-      content: "#EEE",
-    }],
-    link: [{ href: "/logo_bg.png", rel: "shortcut icon" }],
+  app: {
+    head: {
+      title: "Wimax",
+      titleTemplate: "%s | Wimax",
+      meta: [
+        {
+          name: "description",
+          hid: "description",
+          content: "A club created by students of AI for students of AI",
+        },
+        {
+          name: "theme-color",
+          hid: "theme-color",
+          content: "#EEE",
+        },    ],
+      link: [
+        { href: "/logo_bg.png", rel: "shortcut icon" },
+      ],
+    },
   },
   modules: [
     "@nuxt/content",
