@@ -2,6 +2,8 @@
   <div>
     <a
       class="
+        flex-flex-col
+        h-full
         text-white
         block
         p-8

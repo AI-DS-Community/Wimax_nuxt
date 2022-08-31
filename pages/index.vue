@@ -68,7 +68,7 @@
         >
           WiMaX
         </h1>
-        <p class="c italic text-justify">
+        <p class="c italic text-xl text-justify">
           "This is WiMaX, a club initiated by the STUDENTS of artificial
           intelligence and data science department of Easwari Engineering
           college. WiMaX is not just a club but also a COMMUNITY for our
@@ -102,34 +102,41 @@
         <div class="mt-12 text-center">
           <a
             class="
-              inline-flex
+              flex mx-auto
               items-center
               px-8
               py-3
+              h-16
+              w-48
               mt-8
               text-white
-              bg-orange-500
+              bg-blue-400
+              justify-center
               border border-white
               rounded
+              transition duration-500 ease-in-out
               hover:bg-transparent
               active:text-white
+              group
               focus:outline-none focus:ring
             "
             href="/joinus"
           >
-            <span class="text-sm font-medium"> Get Started </span>
+            <div class="text-sm text-center w-24 whitespace-nowrap font-medium max-w-[20rem] group-hover:max-w-0 transition-all duration-500 ease-in-out group-hover:overflow-hidden">Get Started</div>
 
             <svg
-              class="w-5 h-5 ml-3"
+              :class="`ml-3 max-w-0 group-hover:max-w-[20rem] transition-all duration-500 ease-in-out`"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
+              width="16"
+              height="16"
               viewBox="0 0 24 24"
-              stroke="currentColor"
+              stroke-width="2"
+              stroke="white"
+              stroke-linecap="round"
+              stroke-linejoin="round"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
                 d="M17 8l4 4m0 0l-4 4m4-4H3"
               />
             </svg>
@@ -183,12 +190,12 @@
   background-repeat: no-repeat;
   transition: all 500ms ease-in-out;
 }
+/*
 
 svg {
   stroke: #93c5fd;
 }
 
-/*
 .v3 p {
   color: transparent;
   background-position: right;
@@ -217,7 +224,6 @@ svg {
 }
 
 #home {
-  height: 90vh;
   animation: homepage 2s ease-in-out;
 }
 @keyframes homepage {
@@ -231,16 +237,6 @@ svg {
   }
   100% {
     opacity: 1;
-  }
-}
-#about {
-  height: 90vh;
-  animation: aboutpage 0.4s ease-in-out;
-}
-@keyframes aboutpage {
-  from {
-    opacity: 0.2;
-    transform: translateX(-40px);
   }
 }
 
@@ -422,8 +418,7 @@ const domains = [
     image: `/web_dev.svg`,
     link: `/services/digital-campaign`,
     content: `The art of building, creating, and maintaining websites. Divided
-              into two categories Front End and Back end. Involves aspects such
-              as`,
+              into two categories Front End and Back end.`,
   },
   {
     title: `DevOps`,

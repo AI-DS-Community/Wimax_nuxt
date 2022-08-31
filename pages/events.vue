@@ -37,7 +37,7 @@
         Project Day 2022
       </h1>
       
-      <p class="c italic text-justify">
+      <p class="c italic text-xl text-justify">
         Our classmates had participated in project day 2022 conducted at Easwari
         Engineering college. We demonstrated our various projects to the
         audience and the faculties such as Gesture Controlled Computer(GCC)
