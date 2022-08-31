@@ -38,7 +38,7 @@
         </div>
         <div class="px-8 py-4 flex flex-col items-center mx-auto">
             <img
-                src="https://drive.google.com/uc?export=view&id=1GC3h-i_g_cwGcssWWnkFlmNC7TgkMT-D"
+                src="/events.webp"
                 alt="projectday"
             />
         </div>
