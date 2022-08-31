@@ -226,7 +226,6 @@ svg {
 }
 
 #home {
-  min-height: 90vh;
   animation: homepage 2s ease-in-out;
 }
 @keyframes homepage {
