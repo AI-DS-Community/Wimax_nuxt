@@ -19,7 +19,7 @@
       data-aos-delay="100"
       data-aos-duration="260"
     >
-      <img :src="content.image" :alt="content.title" width="50px" height="50px" />
+      <NuxtImg :src="content.image" :alt="content.title" width="50px" height="50px" />
 
       <div class="mt-4 text-xl font-bold text-white">{{ content.title }}</div>
 

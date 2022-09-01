@@ -83,7 +83,7 @@
       </div>
 
       <div class="px-8 py-4 flex flex-col items-center mx-auto">
-        <img src="/wimax.webp" alt="about" />
+        <NuxtImg src="/wimax.webp" alt="about" />
       </div>
     </section>
 
@@ -154,7 +154,7 @@
             <p class="text-center text-sm text-blue-300">This is WiMaX, a club initiated by the STUDENTS of artificial intelligence and data science department of Easwari Engineering college. WiMaX is not just a club but also a COMMUNITY for our students to sharpen their skills in their interested domain and to explore new domains. Our ideology is focused on COLLECTIVE GROWTH. We help among ourselves by GAINING KNOWLEDGE from others and TEACHING their KNOWLEDGE to others. We try to bring our IDEAS to real life to make an IMPACT in our society and the world and an INSPIRATION to our younger generation.</p>
         </div>
         <div class="w-1/2 px-8 py-4">
-            <img src="/data\images\naveen_funny.jpeg" alt="funny_naveen">
+            <NuxtImg src="/data\images\naveen_funny.jpeg" alt="funny_naveen">
         </div> 
     </section> -->
 

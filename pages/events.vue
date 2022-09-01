@@ -37,7 +37,7 @@
             </p>
         </div>
         <div class="px-8 py-4 flex flex-col items-center mx-auto">
-            <img
+            <NuxtImg
                 src="/events.webp"
                 alt="projectday"
             />

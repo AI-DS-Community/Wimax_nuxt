@@ -16,7 +16,7 @@
                     :key="person.name"
                     class="space-y-4 "
                 >
-                    <img
+                    <NuxtImg
                         alt=""
                         class="object-cover w-48 h-48 mx-auto mb-4 bg-center rounded-sm dark:bg-gray-500"
                         :src="`${person.image}`"
