@@ -8,7 +8,7 @@
             data-aos-duration="260"
         >
             <div class="lg:shrink-0 p-2">
-                <NuxtImg
+                <img
                     :src="content.image"
                     :alt="content.title"
                     class="object-cover w-full h-full lg:w-48 lg:h-48 lg:rounded-full"

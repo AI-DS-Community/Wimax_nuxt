@@ -55,7 +55,7 @@
             href="/"
             key="logo"
           >
-            <NuxtImg src="/wimax.webp" :class="`w-16 rounded-full p-0`" alt="WiMaX" />
+            <img src="/wimax.webp" :class="`w-16 rounded-full p-0`" alt="WiMaX" />
         </a>
         </div>
         <div class="navs flex flex-col lg:flex-row item-center space-y-4 lg:space-y-0 lg:space-x-4">
