@@ -4,8 +4,8 @@ import { defineNuxtConfig } from "nuxt";
 export default defineNuxtConfig({
   app: {
     head: {
-      title: "Wimax",
-      titleTemplate: "%s | Wimax",
+      title: "WiMaX",
+      titleTemplate: "%s | WiMaX",
       meta: [
         {
           name: "description",
@@ -15,7 +15,32 @@ export default defineNuxtConfig({
         {
           name: "theme-color",
           hid: "theme-color",
-          content: "#EEE",
+          content: "#60a5fa",
+        },
+        {
+          name: "og:site_name",
+          hid: "og:site_name",
+          content: "WiMaX",
+        },
+        {
+          name: "og:locale",
+          hid: "og:locale",
+          content: "en_GB",
+        },
+        {
+          name: "og:type",
+          hid: "og:type",
+          content: "website",
+        },
+        {
+          name: "og:image",
+          hid: "og:image",
+          content: "/wimax.png",
+        },
+        {
+          name: "og:image:alt",
+          hid: "og:image:alt",
+          content: "The WiMaX Logo",
         },
       ],
       link: [
@@ -94,4 +119,8 @@ export default defineNuxtConfig({
       plugins: [],
     },
   },
+  schemaOrg: {
+    canonicalHost: "https://www.wimax.live",
+    defaultLanguage: "en-GB",
+  }
 });
