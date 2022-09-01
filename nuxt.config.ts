@@ -56,6 +56,9 @@ export default defineNuxtConfig({
     "nuxt-schema-org",
     "@nuxt/image-edge",
   ],
+  image: {
+    provider: "ipx",
+  },
   tailwindcss: {
     config: {
       darkMode: "class",
