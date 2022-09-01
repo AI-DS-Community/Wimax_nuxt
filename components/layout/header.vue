@@ -1,5 +1,5 @@
 <template>
-  <header :class="`flex flex-row sticky top-0 w-full z-50 top-0 bg-gray-900 lg:bg-black/20 border-blue-400 border-b-2`">
+  <header :class="`flex flex-row sticky top-0 w-full z-50 top-0 bg-gray-900 lg:bg-black/20 backdrop-blur-lg border-blue-400 border-b-2`">
     <div :class="`flex flex-row w-full items-center p-4`">
       <div :class="`flex flex-row items-center justify-center lg:hidden`">
         <button
