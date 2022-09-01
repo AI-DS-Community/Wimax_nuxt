@@ -108,7 +108,6 @@ const navList = [
   { name: "EVENTS", key: "events", route: "/events" },
   { name: "JOIN US", key: "join us", route: "/joinus" },
   { name: "CONTACT US", key: "contact us", route: "/contactus" },
-  { name: "DEVELOPERS", key: "developers", route: "/team" },
   
 ];
 
