@@ -109,7 +109,7 @@
             year: 3,
             linkedIn: "https://www.linkedin.com/in/raghuram-s-ai/",
             github: "https://github.com/Minato3000",
-            image: "/raghu.webp",
+            image: "/raghu1.webp",
         },
         {
             name: "Naresh",
