@@ -5,7 +5,7 @@
       <div id='stars2'></div>
       <div id='stars3'></div>
       <span class="a">
-        <h1 class="text-8xl lg:text-9xl">WiMaX</h1>
+        <span class="text-8xl lg:text-9xl">WiMaX</span>
       </span>
     </div>
 
