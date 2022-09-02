@@ -1,13 +1,6 @@
 <template>
   <div class="home flex flex-col space-y-16 px-2 snap-center">
-    <div id="spinningText" class="flex h-[80vh]">
-      <div id='stars'></div>
-      <div id='stars2'></div>
-      <div id='stars3'></div>
-      <span class="a">
-        <span class="text-8xl lg:text-9xl">WiMaX</span>
-      </span>
-    </div>
+
 
     <div class="content text-2xl text-white px-4">
       <div
