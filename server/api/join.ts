@@ -5,6 +5,10 @@ interface join_data {
   wanted_skills: string;
   email_id: string;
   intrested: string;
+  department: string;
+  year:string;
+  institution:string;
+
 }
 
 const api_url = "https://fnwklfrkwfhjpkgmnlcw.supabase.co/rest/v1/information";

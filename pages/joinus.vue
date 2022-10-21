@@ -92,6 +92,80 @@
           "
         />
       </div>
+
+      <div class="px-4">
+        <label for="department" class="block mb-1 ml-1 text-blue-400"
+          >Department</label
+        >
+        <textarea
+          name="department"
+          id="department"
+          type="text"
+          placeholder="Department"
+          class="
+            block
+            w-full
+            p-2
+            rounded
+            autoexpand
+            text-black
+            focus:outline-none
+            focus:ring
+            focus:ring-opacity-25
+            focus:ring-blue-400
+            dark:bg-gray-800
+          "
+        ></textarea>
+      </div>
+
+      <div class="px-4">
+        <label for="year" class="block mb-1 ml-1 text-blue-400"
+          >Current studying Year</label
+        >
+        <textarea
+          name="year"
+          id="year"
+          type="text"
+          placeholder="year in number"
+          class="
+            block
+            w-full
+            p-2
+            rounded
+            text-black
+            focus:outline-none
+            focus:ring
+            focus:ring-opacity-25
+            focus:ring-blue-400
+            dark:bg-gray-800
+          "
+        ></textarea>
+      </div>
+
+      <div class="px-4">
+        <label for="institution" class="block mb-1 ml-1 text-blue-400"
+          >Institution</label
+        >
+        <textarea
+          name="institution"
+          id="institution"
+          type="text"
+          placeholder="College/Institution name"
+          class="
+            block
+            w-full
+            p-2
+            rounded
+            autoexpand
+            text-black
+            focus:outline-none
+            focus:ring
+            focus:ring-opacity-25
+            focus:ring-blue-400
+            dark:bg-gray-800
+          "
+        ></textarea>
+      </div>
       <div class="px-4">
         <label for="skillsKnown" class="block mb-1 ml-1 text-blue-400"
           >Skills Known</label

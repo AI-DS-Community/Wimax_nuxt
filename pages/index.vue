@@ -51,9 +51,9 @@
               />
             </svg>
           </a>
-        </div>
+        
 
-        <div class="mt-12 text-center">
+        <!--<div class="mt-12 text-center">-->
           <a
             class="
               flex mx-auto
