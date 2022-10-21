@@ -9,6 +9,94 @@
       </span>
     </div>
 
+    <div class="mt-12 text-center">
+          <a
+            class="
+              flex mx-auto
+              items-center
+              px-8
+              py-3
+              h-14
+              w-40
+              mt-8
+              text-white
+              bg-gradient-to-r from-pink-500 to-yellow-500 hover:from-green-400 hover:to-blue-500
+              justify-center
+              border border-white
+              rounded
+              transition duration-500 ease-in-out
+              hover:bg-transparent
+              active:text-white
+              group
+              focus:outline-none focus:ring
+            "
+            href="/joinus"
+          >
+            <div class="text-sm text-center w-24 font-semibold">Join US</div>
+
+            <svg
+              :class="`ml-3 max-w-0 group-hover:max-w-[20rem] transition-all duration-500 ease-in-out`"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="white"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
+              />
+            </svg>
+          </a>
+        </div>
+
+        <div class="mt-12 text-center">
+          <a
+            class="
+              flex mx-auto
+              items-center
+              px-8
+              py-2
+              h-14
+              w-40
+              mt-8
+              text-white
+              bg-gradient-to-r from-pink-500 to-yellow-500 hover:from-green-400 hover:to-blue-500
+              justify-center
+              border border-white
+              rounded
+              transition duration-500 ease-in-out
+              hover:bg-transparent
+              active:text-white
+              group
+              focus:outline-none focus:ring
+            "
+            href="/projects"
+          >
+            <div class="text-sm text-center w-24 font-semibold">Projects</div>
+
+            <svg
+              :class="`ml-3 max-w-0 group-hover:max-w-[20rem] transition-all duration-500 ease-in-out`"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="white"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
+              />
+            </svg>
+          </a>
+        </div>
+
     <div class="content text-2xl text-white px-4">
       <div
         class="
@@ -16,13 +104,15 @@
           font-semibold
           italic
           break-words
-          text-3xl
+          text-2xl
           tracking-widest
           leading-relaxed
           lg:text-center lg:max-w-2xl lg:mx-auto
           cursor-pointer
         "
-      > <p>
+      >
+      
+     <p>
         “One whose ideal is mortal dies when his ideal is achieved. But one
         whose ideal is immortal must become immortal himself to attain it” </p>
       </div>
@@ -69,7 +159,7 @@
         >
           WiMaX
         </h1>
-        <p class="c italic text-xl text-justify">
+        <p class="c text-l text-justify">
           "This is WiMaX, a club initiated by the STUDENTS of artificial
           intelligence and data science department of Easwari Engineering
           college. WiMaX is not just a club but also a COMMUNITY for our
