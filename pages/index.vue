@@ -201,7 +201,7 @@
               w-48
               mt-8
               text-white
-              bg-blue-400
+              bg-gradient-to-r from-pink-500 to-yellow-500 hover:from-green-400 hover:to-blue-500
               justify-center
               border border-white
               rounded
