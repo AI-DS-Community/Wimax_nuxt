@@ -5,7 +5,7 @@
   >
     <form
       ref="join"
-      novalidate=""
+      novalidate
       class="
         container-fluid
         w-full
@@ -30,7 +30,7 @@
           id="name"
           type="text"
           placeholder="Your name"
-          required=""
+          required
           class="
             block
             w-full
@@ -55,7 +55,7 @@
           type="tel"
           placeholder="Your number"
           pattern="[0-9]{5}-[0-9]{5}"
-          required=""
+          required
           class="
             block
             w-full
@@ -77,7 +77,7 @@
           id="email"
           type="email"
           placeholder="Your email"
-          required=""
+          required
           class="
             block
             w-full
@@ -278,21 +278,21 @@
 <style scoped>
 </style>
 
-<script setup>
+<script setup lang="ts">
 useHead({
   title: "Membership Form",
 });
 
 const message = ref({ type: "", content: "" });
 
-const join = ref(null);
-async function joinus(event) {
+const join = ref<HTMLFormElement | null>(null);
+async function joinus(event: Event) {
   event.preventDefault();
-  const formData = new FormData(join.value);
+  const formData = new FormData((join.value) as HTMLFormElement);
   const allEntries = Array.from(formData.entries()).reduce((acc, val) => {
     acc[val[0]] = val[1];
     return acc;
-  }, {});
+  }, {} as Record<string, FormDataEntryValue>);
   console.log(allEntries);
   const result = await fetch("/api/join", {
     method: "POST",

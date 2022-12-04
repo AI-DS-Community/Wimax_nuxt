@@ -36,8 +36,14 @@
   </div>
 </template>
 
-<script setup>
-const { content } = defineProps({
-  content: Object,
-});
+<script setup lang="ts">
+    const { content } = defineProps<{
+        content: {
+            list?: string[];
+            title: string;
+            content: string;
+            image: string;
+            link?: string;
+        };
+    }>();
 </script>

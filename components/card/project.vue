@@ -19,6 +19,7 @@
             >
                 <div class="flex flex-row items-center space-x-4">
                     <a
+                        v-if="content.github"
                         :href="content.github"
                         class="stroke-blue-400 stroke-2 block transition duration-500 ease-in-out transform hover:-translate-y-1"
                     >
@@ -41,6 +42,7 @@
                         </svg>
                     </a>
                     <a
+                        v-if="content.link"
                         :href="content.link"
                         class="stroke-blue-400 stroke-2 block transition duration-500 ease-in-out transform hover:-translate-y-1"
                     >
@@ -89,8 +91,15 @@
     </div>
 </template>
 
-<script setup>
-    const { content } = defineProps({
-        content: Object,
-    });
+<script setup lang="ts">
+    const { content } = defineProps<{
+        content: {
+            list?: string[];
+            title: string;
+            content: string;
+            image: string;
+            github?: string;
+            link?: string;
+        };
+    }>();
 </script>

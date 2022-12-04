@@ -491,7 +491,7 @@ html {
 
 </style>
 
-<script setup>
+<script setup lang="ts">
 useHead({
   title: "Welcome",
 });

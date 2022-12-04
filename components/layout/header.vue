@@ -109,7 +109,7 @@
     }
 </style>
 
-<script setup>
+<script setup lang="ts">
     const navOpen = ref(false);
 
     const navList = [
