@@ -9,6 +9,12 @@
         title: "Projects"
     })
     const Projects = [
+    {
+            title: "Hand Cricket against AI",
+            content: "Think you can win against my AI in Hand cricket ? Give it a try. You can play with your hands as you play with your friends but this time against AI. Comes under computer vision domain and developed using Python and OpenCV ",
+            github: "https://github.com/0EnIgma1/Hand-Cricket",
+            image: "/project/output1.png",
+        },
         {
             title: "Gesture Controlled Computer (GCC)",
             content: "A technology to control computers and laptops using hand gestures to mimic the entire functions of mouse and some keyboard functions to ease the human computer interaction.Only Webcam is required. This technology can be used in various sectors such as Smart home, Smart education, Entertainment, Gaming and medical field.",
