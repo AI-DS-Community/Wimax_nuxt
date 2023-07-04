@@ -13,7 +13,6 @@
     "@pinia/nuxt": "^0.4.6",
     "@tailwindcss/typography": "^0.5.8",
     "nuxt": "^3.0.0",
-    "nuxt-schema-org": "^1.1.0-beta.6",
     "nuxt-schema-org": "^2.1.2",
     "pinia": "^2.0.27"
   },
@@ -21,6 +20,7 @@
     "aos": "^2.3.4",
     "daisyui": "^2.42.1",
     "gitart-scroll-carousel": "^1.2.4",
+    "pnpm": "^8.6.6",
     "sass": "^1.56.1"
   }
 }
