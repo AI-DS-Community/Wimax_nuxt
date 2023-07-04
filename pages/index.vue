@@ -30,7 +30,7 @@
               group
               focus:outline-none focus:ring
             "
-            href="/joinus"
+            href="https://chat.whatsapp.com/IlydtEkT8lBEzzWkbF7DCq"
           >
             <div class="text-sm text-center w-24 font-semibold">Join US</div>
 
@@ -211,7 +211,7 @@
               group
               focus:outline-none focus:ring
             "
-            href="/joinus"
+            href="https://chat.whatsapp.com/IlydtEkT8lBEzzWkbF7DCq"
           >
             <div class="text-sm text-center w-24 whitespace-nowrap font-medium max-w-[20rem] group-hover:max-w-0 transition-all duration-500 ease-in-out group-hover:overflow-hidden">Get Started</div>
 

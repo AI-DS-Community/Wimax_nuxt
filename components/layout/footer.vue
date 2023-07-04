@@ -59,7 +59,7 @@
           <nav class="flex flex-col mt-4 lg:text-sm text-base text-gray-500 space-y-2">
             <a class="hover:opacity-75" href="/contactus"> Contact </a>
             <a class="hover:opacity-75" href="mailto:wimaxclub@mail.com"> Mail us </a>
-            <a class="hover:opacity-75" href="/joinus"> Join us </a>
+            <a class="hover:opacity-75" href="https://chat.whatsapp.com/IlydtEkT8lBEzzWkbF7DCq"> Join us </a>
           </nav>
         </div>
 

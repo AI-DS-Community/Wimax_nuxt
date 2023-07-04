@@ -117,7 +117,7 @@
         { name: "About Us", key: "about us", route: "/#about" },
         { name: "Projects", key: "projects", route: "/projects" },
         { name: "Events", key: "events", route: "/events" },
-        { name: "Join Us", key: "join us", route: "/joinus" },
+        { name: "Join Us", key: "join us", route: "https://chat.whatsapp.com/IlydtEkT8lBEzzWkbF7DCq" },
         { name: "Contact Us", key: "contact us", route: "/contactus" },
     ];
 
