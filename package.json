@@ -20,7 +20,6 @@
     "aos": "^2.3.4",
     "daisyui": "^2.42.1",
     "gitart-scroll-carousel": "^1.2.4",
-    "pnpm": "^8.6.6",
     "sass": "^1.56.1"
   }
 }
